@@ -14,3 +14,9 @@
 .header-main > img{
     width: 150px;
 }
+
+@media only screen and (max-width: 790px) {
+    .nav-ul{
+        display: none;
+    }
+  }

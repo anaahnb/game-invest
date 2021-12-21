@@ -30,3 +30,18 @@
 .reverse{
     flex-direction: row;
 }
+
+@media only screen and (max-width: 810px) {
+    .flex-perfil{
+        flex-direction: column-reverse;
+    }
+
+    .flex-perfil > img{
+        width: 100%;
+    }
+
+    .texto-perfil{
+        width: 100%;
+    }
+
+  }
