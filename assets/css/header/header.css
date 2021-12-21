@@ -1,0 +1,22 @@
+
+.main-header{
+    background-color: #020202;
+    color:white;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.header-main > img{
+    width: 150px;
+}
+
+@media only screen and (max-width: 790px) {
+    .nav-ul{
+        display: none;
+    }
+  }

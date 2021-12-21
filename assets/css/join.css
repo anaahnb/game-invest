@@ -1,0 +1,30 @@
+/* Estilo da Página */
+@import url("./style/style.css");
+@import url("./variaveis.css");
+
+/* Header */
+@import url("./header/header.css");
+
+/* Home */
+@import url("./home/home.css");
+
+/* Section Indefinida */
+@import url("./section-indefinida/section.css");
+
+/* Perfil do Investidor */
+@import url("./perfil-do-investidor/perfil-do-investidor.css");
+
+/* Principais meios de Investimento */
+@import url("./meios-de-investimento/meios-de-investimento.css");
+@import url("./meios-de-investimento/renda-fixa.css");
+@import url("./meios-de-investimento/renda-variavel.css");
+@import url("./meios-de-investimento/grafico.css");
+
+/* Vantagens de Investir */
+@import url("./vantagens-de-investir/vantagens-de-investir.css");
+
+/* RPG */
+@import url("./rpg/saiba-mais-rpg.css");
+
+/* footer */
+@import url("./footer/footer.css");

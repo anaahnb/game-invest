@@ -1,0 +1,47 @@
+
+.descricao{
+    width: 60%;
+    margin: 1em auto;
+}
+
+
+.flex-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 1em;
+}
+
+.flex-perfil > img{
+    width: 50%;
+    max-width: 450px;
+}
+
+.texto-perfil{
+    width :50%;
+    margin-bottom: 5em;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.reverse{
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 810px) {
+    .flex-perfil{
+        flex-direction: column-reverse;
+    }
+
+    .flex-perfil > img{
+        width: 100%;
+    }
+
+    .texto-perfil{
+        width: 100%;
+    }
+
+  }
