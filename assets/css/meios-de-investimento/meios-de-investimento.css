@@ -8,3 +8,9 @@
     font-weight: lighter;
     margin: 3em 0;
 }
+
+@media only screen and (max-width: 810px) {
+    .meios-investimento{
+        width: 80%;
+    }
+  }

@@ -12,6 +12,12 @@
     justify-content: space-between;
 }
 
+.home > img{
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
 
 .texto-home{
     display: flex;
@@ -28,4 +34,23 @@
 .paragrafo-home{
     font-size: 20px;
     color: #4E894E;
+}
+
+
+@media only screen and (max-width: 1210px) {
+    .titulo-home{
+        font-size: 26px ;
+    }
+
+  }
+
+  @media only screen and (max-width: 610px) {
+    .home{
+        flex-direction: column-reverse;
+    }
+  
+    .texto-home{
+        width: 100%;
+        text-align: center;
+    }
 }

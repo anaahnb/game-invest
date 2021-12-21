@@ -37,3 +37,20 @@
     font-weight: semibold;
     color: #B7B3B3;
 }
+
+
+
+@media only screen and (max-width: 810px) {
+    .flex-renda-variavel {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .item-flex-renda-variavel{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+}

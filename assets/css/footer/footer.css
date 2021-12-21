@@ -18,10 +18,11 @@
 
 .flex-footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 90%;
     max-width: 900px;
-    gap: 2em;
+    gap: 4em;
+    flex-wrap: wrap;
 }
 
 .item-footer{
@@ -47,3 +48,20 @@
 .copyright{
     margin-bottom: 2em;
 }
+
+@media only screen and (max-width: 1310px) {
+    .item-footer{
+        flex-wrap: nowrap;
+    }
+  }
+
+
+  @media only screen and (max-width: 510px) {
+    .footer{
+        gap: 5em;
+    }
+
+    .flex-footer{
+        justify-content: center;
+    }
+  }
