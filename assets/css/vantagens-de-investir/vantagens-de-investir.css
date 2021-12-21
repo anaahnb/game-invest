@@ -1,0 +1,26 @@
+
+.item-vantagens{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px #4E948E;
+    height: 300px;
+    padding: 1em;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.item-vantagens > img{
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.flex-vantagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

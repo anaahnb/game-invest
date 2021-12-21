@@ -1,0 +1,19 @@
+
+.flex-imagem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5em 0;
+    margin-bottom: 10em;
+}
+
+.flex-imagem > p{
+    width: 30%;
+    color: #B7B3B3;
+}
+
+.flex-imagem > img{
+    width: 470px;
+    height: 400px;
+    background-color: #C4C4C4;
+}

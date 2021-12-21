@@ -1,0 +1,49 @@
+
+.main-footer{
+    background-color: black;
+}
+
+.listras{
+    width: 100%;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    margin-top: 2em;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 900px;
+    gap: 2em;
+}
+
+.item-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 150px;
+    gap: 1em;
+}
+
+.item-footer > h4{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    margin-bottom: 2em;
+}

@@ -1,0 +1,10 @@
+.meios-investimento{
+    width: 60%;
+}
+
+.meios-investimento > h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 3em 0;
+}

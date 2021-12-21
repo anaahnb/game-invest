@@ -1,0 +1,39 @@
+
+.flex-renda-variavel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8em;
+}
+
+
+.item-flex-renda-variavel{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.imagem-renda-variavel{
+    width: 45%;
+    max-width: 200px;
+}
+
+.imagem-renda-variavel > img{
+    width: 100%;
+}
+
+.texto-renda-variavel{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.texto-renda-variavel > h4{
+    font-size: 26px ;
+}
+
+.texto-renda-variavel > p{
+    font-size: 18px;
+    font-weight: semibold;
+    color: #B7B3B3;
+}
