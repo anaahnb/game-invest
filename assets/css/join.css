@@ -1,5 +1,6 @@
 /* Estilo da Página */
 @import url("./style/style.css");
+@import url("./variaveis.css");
 
 /* Header */
 @import url("./header/header.css");
@@ -23,7 +24,7 @@
 @import url("./vantagens-de-investir/vantagens-de-investir.css");
 
 /* RPG */
-@import url("./rpg/rpg.css");
+@import url("./rpg/saiba-mais-rpg.css");
 
 /* footer */
 @import url("./footer/footer.css");
