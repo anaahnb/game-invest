@@ -6,6 +6,9 @@ html{
 
 body{
     background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
 }
 .container__index{
     width: auto;
