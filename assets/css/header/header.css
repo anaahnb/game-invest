@@ -1,22 +1,91 @@
+@media only screen and (min-width: 0px){
+    .main-header{
+        height: 30px;
+        width: 100%;
 
-.main-header{
-    background-color: #020202;
-    color:white;
-}
+        background-color: #020202;
+        color: white;
 
-.header-main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 0;
-}
+        display: flex;
+        justify-content: center;
+        position: fixed;
+    }
+    .header-main > img{
+        width: 115px;
+        height: 19.81px;
+    }
 
-.header-main > img{
-    width: 150px;
-}
+    .header-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-@media only screen and (max-width: 790px) {
-    .nav-ul{
+    .header__nav{
+        overflow: hidden;
+        background-color: #020202;
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+
+    #nav-bar{
         display: none;
+    }
+
+    .header__Botao__Burguer{
+        border: none;
+        background-color: #020202;
+        margin-left: 30px;
+    }
+
+    .header__Botao__Burguer img{
+        width: 20px;
+        border: none;
+    }
+
+    .header__nav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .header__nav .header__Botao__Burguer{
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .main-header{
+        height: 70.45px;
+    }
+
+    .header-main > img{
+        width: 175px;
+        height: 53.171px;
+    }
+
+    .header__nav{
+        position: initial;
+    }
+
+    #nav-bar{
+        display: block;
+        
+    }
+    .header__Botao__Burguer{
+        display: none;
+    }
+
+    .nav-ul li{
+        display: inline-block;
     }
   }
