@@ -2,6 +2,25 @@
 @import url("style/reset.css");
 @import url("style/style.css");
 
+/* Estilo da Página */
+@import url("./style/style.css");
+@import url("./variaveis.css");
+
+/* Header */
+@import url("./header/header.css");
+
+/* comecar */
+@import url("./comecar/comecar.css");
+
+/* Home */
+@import url("./home/home.css");
+    
+/* Vantagens de Investir */
+@import url("./vantagens-de-investir/vantagens-de-investir.css");
+
+/* Perfil do Investidor */
+@import url("./perfil-do-investidor/perfil-do-investidor.css");
+
 
 /* Principais Meios de Investimento */
 @import url("./principaisMeiosdeInvestimento/principalMeiodeInvestimento.css");
