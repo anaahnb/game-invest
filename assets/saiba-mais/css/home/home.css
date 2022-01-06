@@ -34,7 +34,7 @@
     }
     
     .titulo-home{
-        font-family: 'Press Start 2P', cursive;
+        font-family: var(--press);
         font-style: normal;
         font-weight: normal;
         font-size: 1rem;
@@ -54,7 +54,7 @@
     }
     
     .paragrafo-home{
-        font-family: 'Poppins', cursive;
+        font-family: var(--poppins);
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
@@ -110,10 +110,14 @@
     }
     .conteiner__home__paragrafo{
         justify-content: start;
-        padding: 0 0 0 200px;
+        padding: 0 0 0 110px;
+
+        margin-top: -50px;
     }
     .paragrafo-home{
         font-size: 25px;
         line-height: 37.5px;
+
+
     }
 }

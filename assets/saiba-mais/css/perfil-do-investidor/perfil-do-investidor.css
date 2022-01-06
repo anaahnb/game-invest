@@ -8,8 +8,12 @@
 
     .conteiner__perfil__investidor h2{
         font-size: 1em;
-        color: black;
+        font-family: var(--press);
+        color: #063305;
         margin: 0;
+        text-align: center;
+        list-style: none;
+        line-height: 20px;
     }
 
     
@@ -120,50 +124,9 @@
         font-size: 1.2em;
         padding-top: 1em;
     }
-}
-/* .descricao{
-    width: 60%;
-    margin: 1em auto;
-}
 
-
-.flex-perfil{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    gap: 1em;
-}
-
-.flex-perfil > img{
-    width: 50%;
-    max-width: 450px;
-}
-
-.texto-perfil{
-    width :50%;
-    margin-bottom: 5em;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-
-.reverse{
-    flex-direction: row;
-}
-
-@media only screen and (max-width: 810px) {
-    .flex-perfil{
-        flex-direction: column-reverse;
+    .perfil__troca{
+        flex-direction: row-reverse;
     }
+}
 
-    .flex-perfil > img{
-        width: 100%;
-    }
-
-    .texto-perfil{
-        width: 100%;
-    }
-
-  } */

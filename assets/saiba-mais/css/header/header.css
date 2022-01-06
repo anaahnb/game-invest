@@ -1,13 +1,18 @@
 @media only screen and (min-width: 0px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .main-header{
         height: 30px;
-        width: 100%;
+        width: 100vw;
 
         background-color: #020202;
         color: white;
 
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         position: fixed;
     }
     .header-main > img{
@@ -17,7 +22,7 @@
 
     .header-main{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
 
@@ -36,7 +41,8 @@
     .header__Botao__Burguer{
         border: none;
         background-color: #020202;
-        margin-left: 30px;
+        position: absolute;
+        right: 0;
     }
 
     .header__Botao__Burguer img{
@@ -45,6 +51,7 @@
     }
 
     .header__nav a {
+        font-family: var(--poppins);
         color: white;
         padding: 14px 16px;
         text-decoration: none;
@@ -68,6 +75,12 @@
 
 
 @media only screen and (min-width: 1024px) {
+    .header-main{
+        width: 100%;
+        justify-content: space-between;
+
+        padding: 0px 100px;
+    }
     .main-header{
         height: 70.45px;
     }
