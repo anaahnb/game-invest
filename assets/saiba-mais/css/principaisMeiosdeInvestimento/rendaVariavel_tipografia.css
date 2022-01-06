@@ -1,0 +1,91 @@
+/* Celular */
+@media screen and (min-width: 0) {
+
+
+    .rendaVariavel__subtitulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        margin: 0;
+        font-weight: 500;
+
+
+    }
+
+    .rendaVariavel_descricao {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        text-align: justify;
+        margin: 0.5rem;
+        line-height: 20px;
+        font-weight: 500;
+
+    }
+    .rendaVariavel__subtituloCDB{
+        font-family: 'Poppins', sans-serif;
+        color: #6FB272;
+        margin: 0;
+    }
+
+   
+
+    
+}
+
+/* Tablet */
+@media screen and (min-width: 744px) {
+
+    .rendaVariavel__subtituloCDB {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        color: #6FB272;
+        margin: 0;
+
+
+    }
+
+    .rendaVariavel_descricao {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        text-align: justify;
+        margin: 1rem;
+        line-height: 24px;
+        font-weight: 500;
+
+
+    }
+
+    .rendaVariavel__subtitulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        margin: 0;
+        font-weight: 500;
+    }
+
+
+
+
+}
+
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .rendaVariavel_descricao {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        text-align: justify;
+        margin: 1.7rem;
+        line-height: 24px;
+        font-weight: 500;
+
+
+    }
+
+    .rendaVariavel__subtitulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        margin: 0;
+        font-weight: 500;
+
+    }
+
+}

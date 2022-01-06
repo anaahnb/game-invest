@@ -1,0 +1,20 @@
+/* Estilo e Configurações */
+@import url("style/reset.css");
+@import url("style/style.css");
+
+
+/* Principais Meios de Investimento */
+@import url("./principaisMeiosdeInvestimento/principalMeiodeInvestimento.css");
+@import url("./principaisMeiosdeInvestimento/rendaFixa-cards.css");
+@import url("./principaisMeiosdeInvestimento/rendaFixa.css");
+@import url("./principaisMeiosdeInvestimento/rendaFixa_tipografia.css");
+@import url("./principaisMeiosdeInvestimento/rendaVariavel-cards.css");
+@import url("./principaisMeiosdeInvestimento/rendaVariavel.css");
+@import url("principaisMeiosdeInvestimento/rendaVariavel_tipografia.css");
+
+/* Joguinho */
+@import url("vamosJogar/joguinho.css");
+
+/* Footer */
+@import url("footer/footer.css");
+

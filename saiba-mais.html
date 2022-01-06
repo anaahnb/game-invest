@@ -1,427 +1,184 @@
-<!--DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./assets/css/join.css" rel="stylesheet" />
+    <title>Saiba Mais</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Inter:wght@300;400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link href="https://fonts.google.com/share?selection.family=Poppins:wght@500" rel="stylesheet">
+    <!-- Css -->
+    <link href="./assets/saiba-mais/css/join.css" rel="stylesheet" />
+</head>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Inter:wght@300;400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Saiba Mais</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="container header-main">
-        <img src="./assets/img/header/logo.svg" />
 
-        <nav class="header__nav">
-          <ul class="nav-ul" id="nav-bar">
-            <li><a href="#Descrição" class="nav-li">Descrição</a></li>
-            <li><a href="#Vantagens" class="nav-li">Vantagens</a></li>
-            <li><a href="#meios-investimento" class="nav-li">Meios de Investimento</a></li>
-          </ul>
+  <!-- Missão de Kelvin -->
+  <!-- Missão de Kelvin -->
 
-        </nav>
 
-        <button onclick="navbar()"  class="header__Botao__Burguer" type="button" data-toggle="collapse">
-          <img src="./assets/img/header/Group 57.png" alt="Burguer navegação">
-        </button>
-      </div>
-    </header>
-
-    <section id="home" alt="HomePage">
-      <div class="container home">
-        <div class="texto-home">
-          <h1 class="titulo-home">Manual Do Futuro Investidor</h1>
-          <p class="paragrafo-home">
-            Tudo que você precisa saber antes do seu primeiro investimento
-          </p>
+    <!-- Seção Principais Meios de Investimento -->
+<section class="principaisMeiosdeInvestimento">
+    <h2 class="principaisMeiosdeInvestimento_titulo">Principais Meios de Investimento</h2>
+    <!-- Renda Fixa -->
+    <h3 class="rendaFixa_titulo">Renda Fixa</h3>
+    <div class="rendaFixa_cards">
+        <div class="rendaFixa__card rendaFixa__card-secundario CDB">
+            <div class="rendaFixa__card-secundario--CDB"></div>
+            <h2 class="rendaFixa__card--titulo">
+                CDB
+            </h2>
+            <h3 class="rendaFixa__subtituloCDB">Certificado de Depósito<br> Bancário</h3>
+            <p class="rendaFixa_descricao">É um título de renda fixa emitido por bancos para captar
+                dinheiro e financiar suas atividades. Quem
+                compra CDBs empresta dinheiro para os bancos financiarem suas atividades de crédito.</p>
         </div>
-
-        <img
-          src="./assets/img/home/moneyBag.svg"
-          alt="Saco de dinheiro pixelado com uma seta vermelha em crescente e moedas de ouro ao fundo."
-          loading="lazy"
-        />
-      </div>
-    </section>
-
-    <section id="Descrição" alt="Seção de Descrição">
-      <img src="assets/waves-1.svg" alt="" />
-
-      <div class="container descricao">
-        <div class="flex-imagem">
-          <img />
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nunc
-            eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a
-            nunc eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-            a nunc eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Ut a nunc eu.
-          </p>
-        </div>
-
-        <h2>Perfil Do Investidor Iniciante</h2>
-
-        <div class="flex-perfil">
-          <div class="texto-perfil">
-            <h3 class="titulo-perfil">Investidor Conservador</h3>
-            <p class="paragrafo-perfil">
-              É o investidor que sempre prioriza a segurança em suas aplicações.
-              Na sua carteira, ele mantém a maior parte dos investimentos em
-              produtos de baixo risco, especialmente os de Renda Fixa, como o
-              Tesouro Direto.
+        <div class="rendaFixa__card rendaFixa__card-principal">
+            <div class="rendaFixa__card-principal--LCI"></div>
+            <h2 class="rendaFixa__card--titulo rendaFixa__card-principal--titulo">
+                LCI
+            </h2>
+            <h3 class="rendaFixa__subtitulo">
+                Letra de Crédito Imobiliário
+            </h3>
+            <p class="rendaFixa_descricao">É um investimento para apoiar o financiamento imobiliário
+                no país. Tem o objetivo de captar recursos
+                financeiros para empréstimos no setor imobiliário. Quando você compra um título, recebe em troca um
+                rendimento pré-estabelecido.<b> Não possui taxa de administração, é livre de IR e qualquer outra
+                    tributação.</b>
             </p>
-          </div>
-
-          <img
-            src="assets/perfil-conservador.svg"
-            alt="Personagem Pixelado de um Homem Segurando um escudo com cifrões amarelos ao fundo"
-          />
-            <h2>Principais Meios De Investimento</h2>
-            
-            <h3>Renda Fixa</h3>
-            <div class = 'flex-renda-fixa'>
-
-                <div class = 'item-flex-renda-fixa'>
-                    <div class = 'moldura-imagem'><img src = 'assets/img/meios-de-investimento/dollar.svg' alt = ''></div>
-                    <h4>CDB</h4>
-                    <p></p>
-                </div>
-
-                <div class = 'item-flex-renda-fixa destaque'>
-                    <div class = 'moldura-imagem moldura-destaque'><img src = 'assets/img/meios-de-investimento/chest.svg' alt = ''></div>
-                    <h4>Tesouro Direto</h4>
-                    <p></p>
-                </div>
-
-                <div class = 'item-flex-renda-fixa'>
-                    <div class = 'moldura-imagem'><img src = 'assets/img/meios-de-investimento/gold.svg' alt = ''></div>
-                    <h4>LCI</h4>
-                    <p></p>
-                </div>
-
-            </div>
-
-            <h3>Renda Variável</h3>
-            
-            <div class = 'flex-renda-variavel'>
-
-
-                <div class = 'item-flex-renda-variavel'>
-
-                    <div class = 'imagem-renda-variavel'>
-                        <img src = 'assets/img/meios-de-investimento/money.svg' alt = ''>
-                    </div>
-                    
-                    <div class = 'texto-renda-variavel'>
-                        <h4>Alguma Coisa</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nunc eu.
-                        </p>
-                    </div>
-                </div>
-
-                <div class = 'item-flex-renda-variavel'>
-
-                    <div class = 'imagem-renda-variavel'>
-                        <img src = 'assets/img/meios-de-investimento/lupa.svg' alt = ''>
-                    </div>
-                    
-                    <div class = 'texto-renda-variavel'>
-                        <h4>Alguma Coisa</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nunc eu.
-                        </p>
-                    </div>
-                </div>
-
-                <div class = 'item-flex-renda-variavel'>
-
-                    <div class = 'imagem-renda-variavel'>
-                        <img alt = '' src = 'assets/img/meios-de-investimento/coins.svg'>
-                    </div>
-                    
-                    <div class = 'texto-renda-variavel'>
-                        <h4>Alguma Coisa</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nunc eu.
-                        </p>
-                    </div>
-                </div>
-
-                <div class = 'item-flex-renda-variavel'>
-
-                    <div class = 'imagem-renda-variavel'>
-                        <img alt = '' src = 'assets/img/meios-de-investimento/cifrao.svg'>
-                    </div>
-                    
-                    <div class = 'texto-renda-variavel'>
-                        <h4>Alguma Coisa</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nunc eu.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            
-
-            <img src = 'assets/img/meios-de-investimento/image 4.png' alt = '' class = 'imagem-grafico'>
-        </div>  
-        
-        
-
-    </section>
-
-    <section id = 'Vantagens' alt= 'Seção Vantagens'>
-
-        <h2>Vantagens de Investir</h2>
-        <div class = 'container descricao'>
-            <div class = 'flex-vantagens'>
-
-                <div class = 'item-vantagens'>
-                    <img src = 'assets/img/vantagens-de-investir/bag.svg' alt = ''>
-                    <p>APENAS DEMONTRAÇÃO OS ELEMENTOS PODEM TROCAR, MAS FICARIAM MASSA EM PIXEL</p>
-                </div>
-
-                <div class = 'item-vantagens'>
-                    <img src = 'assets/img/vantagens-de-investir/moedas.svg'>
-                    <p>APENAS DEMONTRAÇÃO OS ELEMENTOS PODEM TROCAR, MAS FICARIAM MASSA EM PIXEL</p>
-                </div>
-
-                <div class = 'item-vantagens'>
-                    <img src = 'assets/img/vantagens-de-investir/heart.svg'>
-                    <p>APENAS DEMONTRAÇÃO OS ELEMENTOS PODEM TROCAR, MAS FICARIAM MASSA EM PIXEL</p>
-                </div>
-            </div>
         </div>
-    </section>
-
-    <div class = 'container rpg'>
-
-        <img src = 'assets/img/rpg/saiba-mais-rpg.svg' alt = ''>
-
-
-        <div class = 'texto-rpg'>
-
-            <p>O nosso RPG foi baseado em ... Nasceu da necessidade de...
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nunc eupiscing e.
-                </p>
+        <div class="rendaFixa__card rendaFixa__card-secundario">
+            <div class="rendaFixa__card-secundario--tesouroDireto"></div>
+            <h2 class="rendaFixa__card--titulo">
+                Tesouro Direto
+            </h2>
+            <p class="rendaFixa_descricao">É um programa do Tesouro Nacional que permite a compra e
+                venda de títulos públicos federais por pessoas
+                físicas, de liquidez diária e de risco muito baixo. O investimento mínimo é de R$30,00. Podemos dizer
+                que ao comprar um título do Tesouro Direto você está emprestando dinheiro ao governo.</p>
         </div>
-
-        <div class="flex-perfil reverse">
-          <div class="texto-perfil">
-            <h3 class="titulo-perfil">Investidor Moderado</h3>
-            <p class="paragrafo-perfil">
-              Este tipo de investidor, também gosta de segurança, mas já possui
-              tolerância a riscos de longo prazo, por estar entre os
-              conservadores e os agressivo. Ele pode optar por investimentos
-              mais arriscados dependendo da situação.
-            </p>
-          </div>
-
-          <img
-            src="assets/perfil-moderado.svg"
-            alt="Personagem Pixelado de um Homem de óculos, ao fundo moedas flutuam ao seu redor."
-          />
-        </div>
-      </div>
-    </section>
-
-    <section id="meios-investimento" alt="Principais Meios de Investimento">
-      <div class="container meios-investimento">
-        <h2>Principais Meios De Investimento</h2>
-
-        <h3>Renda Fixa</h3>
-        <div class="flex-renda-fixa">
-          <div class="item-flex-renda-fixa">
-            <div class="moldura-imagem">
-              <img src="assets/dollar.svg" alt="" />
-            </div>
-            <h4>CDB</h4>
-            <p></p>
-          </div>
-
-          <div class="item-flex-renda-fixa destaque">
-            <div class="moldura-imagem moldura-destaque">
-              <img src="assets/chest.svg" alt="" />
-            </div>
-            <h4>Tesouro Direto</h4>
-            <p></p>
-          </div>
-
-          <div class="item-flex-renda-fixa">
-            <div class="moldura-imagem">
-              <img src="assets/gold.svg" alt="" />
-            </div>
-            <h4>LCI</h4>
-            <p></p>
-          </div>
-        </div>
-
-        <h3>Renda Variável</h3>
-
-        <div class="flex-renda-variavel">
-          <div class="item-flex-renda-variavel">
-            <div class="imagem-renda-variavel">
-              <img src="assets/money.svg" alt="" />
-            </div>
-
-            <div class="texto-renda-variavel">
-              <h4>Alguma Coisa</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a
-                nunc eu.
-              </p>
-            </div>
-          </div>
-
-          <div class="item-flex-renda-variavel">
-            <div class="imagem-renda-variavel">
-              <img src="assets/lupa.svg" alt="" />
-            </div>
-
-            <div class="texto-renda-variavel">
-              <h4>Alguma Coisa</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a
-                nunc eu.
-              </p>
-            </div>
-          </div>
-
-          <div class="item-flex-renda-variavel">
-            <div class="imagem-renda-variavel">
-              <img alt="" src="assets/coins.svg" />
-            </div>
-
-            <div class="texto-renda-variavel">
-              <h4>Alguma Coisa</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a
-                nunc eu.
-              </p>
-            </div>
-          </div>
-
-          <div class="item-flex-renda-variavel">
-            <div class="imagem-renda-variavel">
-              <img alt="" src="assets/cifrao.svg" />
-            </div>
-
-            <div class="texto-renda-variavel">
-              <h4>Alguma Coisa</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a
-                nunc eu.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        Gráfico Renda Variável
-        <div>
-          <canvas id="myChart"></canvas>
-        </div>
-        
-      </div>
-    </section>
-
-    <section id="Vantagens" alt="Seção Vantagens">
-      <h2>Vantagens de Investir</h2>
-      <div class="container descricao">
-        <div class="flex-vantagens">
-          <div class="item-vantagens">
-            <img src="assets/bag.svg" alt="" />
-            <p>
-              APENAS DEMONTRAÇÃO OS ELEMENTOS PODEM TROCAR, MAS FICARIAM MASSA
-              EM PIXEL
-            </p>
-          </div>
-
-          <div class="item-vantagens">
-            <img src="assets/coins.svg" />
-            <p>
-              APENAS DEMONTRAÇÃO OS ELEMENTOS PODEM TROCAR, MAS FICARIAM MASSA
-              EM PIXEL
-            </p>
-          </div>
-
-          <div class="item-vantagens">
-            <img src="assets/heart.svg" />
-            <p>
-              APENAS DEMONTRAÇÃO OS ELEMENTOS PODEM TROCAR, MAS FICARIAM MASSA
-              EM PIXEL
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="container rpg">
-      <img src="assets/rpg.svg" alt="" />
-
-      <div class="texto-rpg">
-        <p>
-          O nosso RPG foi baseado em ... Nasceu da necessidade de... Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Ut a nunc eupiscing e.
-        </p>
-      </div>
-
-      <a href="#">VAMOS JOGAR</a>
     </div>
-    <footer class="main-footer">
-      <img src="assets/listras.svg" alt="" class="listras" />
+    <!-- Renda Fixa -->
 
-        <img src = 'assets/img/footer/listras.svg' alt = '' class = 'listras'>
-        
-        <div class = 'container footer'>
-            
-            <img src = 'assets/img/footer/logo-bw.svg' alt = 'Logo'>
-            
-            <p>Projeto desenvolvido pelo time do <strong>Programa Trilhas - Inova Maranhão</strong></p>
-            
-            
-            <div class = 'flex-footer'>
-                <div class = 'item-footer'>
-                    <h4>Time Dados</h4>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Clebson Machado</a>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Luiz Felipe </a>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Railson Douglas</a>
-                </div> 
+    <!-- Renda Variável -->
+    <h3 class="rendaVariavel_titulo">Renda Variável</h3>
 
-                <div class = 'item-footer'>
-                    <h4>Time Design</h4>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Ayla Andrade</a>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Elda Ramos</a>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Mayse Mafra</a>
-                </div> 
-
-                <div class = 'item-footer'>
-                    <h4>Time Programação</h4>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Ana Júlia Alencar</a>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Igor Lima</a>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>João Guilherme </a>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Kelvyn Reis</a>
-                    <a href = # class = 'link-footer'><img src = 'assets/img/footer/linkedin-logo.svg'>Melissa Palhano</a>
-                </div> 
-
+    <div class="rendaVariavel_cards">
+        <div class="rendaVariavel__card rendaVariavel__card-secundario acoes">
+            <div class="rendaVariavel__card-secundario--acoes"></div>
+            <h2 class="rendaVariavel__card--titulo">
+                Ações
+            </h2>
+            <p class="rendaVariavel_descricao">São títulos de propriedade que dão aos seus investidores a participação
+                na sociedade de uma determinada empresa. As ações podem ser de dois tipos, <b>ordinárias ou
+                    preferenciais</b>,
+                onde as ordinárias dão ao seu investidor direito de voto nas assembleias de acionistas enquanto as
+                preferenciais permitem o recebimento de <b>dividendos</b> (o dividendo é a parte do lucro de uma empresa
+                que é
+                dividida com seus acionistas) em um valor superior ao das ações ordinárias.</p>
         </div>
+        <div class="rendaVariavel__card rendaVariavel__card-principal">
+            <div class="rendaVariavel__card-principal--ETF"></div>
+            <h2 class="rendaVariavel__card--titulo rendaVariavel__card-principal--titulo">
+                ETF
+            </h2>
+            <h3 class="rendaVariavel__subtitulo">
+                exchange-traded fund<br>(fundos de índice)
+            </h3>
+            <p class="rendaVariavel_descricao">É um grupo formado por ações de empresas que compõem um índice. O número
+                de empresas pode variar, mas esse índice é uma espécie de trend de ações, ou seja, tendências. Assim
+                como o Spotify oferece os trends das músicas de cada estilo, ou o Google nos mostra quais os assuntos
+                trends (mais pesquisados) do momento, o índice apresenta as trends das ações de acordo com diferentes
+                critérios, como: as mais negociadas, maior liquidez, maior potencial de valorização e entre outros.
+            </p>
+        </div>
+        <div class="rendaVariavel__card rendaVariavel__card-secundario">
+            <div class="rendaVariavel__card-secundario--fundoImobiliario"></div>
+            <h2 class="rendaVariavel__card--titulo">
+                Fundo Imobiliário
+            </h2>
+            <p class="rendaVariavel_descricao">É uma espécie de “condomínio” de investidores, que reúnem seus recursos
+                para que sejam aplicados em conjunto no mercado imobiliário. A dinâmica mais tradicional é que o
+                dinheiro seja usado na construção ou na compra de imóveis, que depois serão alugados ou vendidos. Os
+                ganhos obtidos com esse tipo de investimento são divididos entre os participantes, na proporção em que
+                cada investiu</p>
+        </div>
+    </div>
+        <!-- Renda Variável -->
 
+</section>
+    <!-- Seção Principais Meios de Investimento -->
+
+
+<!-- Seção Joguinho (explicação)-->
+<section class="joguinho">
+    <div class="joguinho-container">
+        <div class="joguinho-img">
+            <!-- Imagem -->
+            <img src="assets/saiba-mais/img/vamosJogar/joguinho.svg" alt="">
+            <div class="joguinho-texto">
+                <p>O nosso RPG foi criado com a proposta de dar aos jovens que nunca investiram antes os
+                    primeiros
+                    passos para entrar no mundo do mercado financeiro. Saber sobre o seu perfil de investidor é
+                    importante para que você saiba como e por onde começar a investir.</p>
+                    <!-- botão -->
+                    <div class="botao">
+                    <a href="#">VAMOS JOGAR!</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Seção Joguinho (explicação)-->
+
+
+
+<!-- Footer -->
+<footer class="main-footer">
+    <!-- Listras -->
+    <img src='assets/saiba-mais/img/footer/listras.svg' alt='' class='listras'>
+    <div class='container footer'>
+        <!-- Logo Game Invest -->
+        <img src='assets/saiba-mais/img/footer/logo.svg' alt='Logo' class="logo">
+        <!-- Título do Footer -->
+        <p class="titulo-footer">Projeto desenvolvido pelo time do <strong>Programa Trilhas - Inova
+                Maranhão</strong></p>
+        <div class='flex-footer'>
+            <div class='item-footer'>
+                <h4>Time Dados</h4>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Clebson Machado</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Luiz Felipe</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Railson Douglas</a>
+            </div>
+            <div class='item-footer'>
+                <h4>Time Design</h4>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Ayla Andrade</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Elda Ramos</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Maysa Mafra</a>
+            </div>
+            <div class='item-footer'>
+                <h4>Time Programação</h4>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Ana Júlia Alencar</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Igor Lima</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>João Guilherme </a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Kelvyn Reis</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Melissa Palhano</a>
+            </div>
+        </div>
         <p class="copyright">
-          Copyright © 2022. GameInvest All rights reserved.
+            Copyright © 2022. GameInvest All rights reserved.
         </p>
-      </div>
-    </footer>
+    </div>
+</footer>
+<!-- Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="assets/js/renda_variavel/graphc.js"></script>
-    <script src="./assets/js/main.js"></script>
+
+
+
 </body>
-</html>
