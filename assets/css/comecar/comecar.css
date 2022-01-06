@@ -1,0 +1,105 @@
+@media only screen and (min-width: 0px){
+    .container__começar{
+        width: 100vw;
+        margin: 0;
+        padding: 30px 30px 0 30px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content__comecar__titulo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px 20px 20px;
+    }
+    .content__comecar__titulo h2{
+        margin: 0;
+        padding: 30px 0 0 15px;
+        font-size: 1em;
+        line-height: 32px;
+        display: block;
+        align-self: flex-start;
+        text-align: start;
+    }
+    .content__comecar__titulo > img{
+        width: 76px;
+        height: 106px;
+    }
+    
+    .content__comecar__paragrafos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+
+        margin-bottom: 82px;
+    }
+    
+    .content__comecar__paragrafos p{
+        text-align: justify;
+        line-height: 20px;
+        font-size: 0.8em;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 744px){
+    .content__comecar__titulo{
+        justify-content: space-around;
+        padding: 50px;
+    }
+    .content__comecar__titulo h2{
+        font-size: 1.5em;
+        text-align: center;
+        padding: 0;
+        align-self: center;
+    }
+
+    .content__comecar__titulo > img{
+        width: 13em;
+        height: 11em;
+    }
+    
+    .content__comecar__paragrafos p{
+        font-size: 1em;
+        line-height: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+    .content__comecar__titulo{
+        justify-content: center;
+    }
+
+    .container__começar h2{
+        font-size: 1.7em;
+    }
+    .content__comecar__titulo > img {
+        width: 15em;
+        height: 15em;
+    }
+
+    .content__comecar__paragrafos{
+        flex-direction: row;
+        padding: 0px 50px;
+    }
+
+    .content__comecar__paragrafos p{
+        font-size: 1.2em;
+        line-height: 30px;
+        margin: 0px 50px;
+    }
+
+}
+
