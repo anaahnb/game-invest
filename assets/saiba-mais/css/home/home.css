@@ -99,9 +99,7 @@
     }
     .texto-home > img{
         width: 433px;
-        height: 436px;
-
-        
+        height: 436px; 
     }
     .texto-home{
         width: 100%;
@@ -121,7 +119,6 @@
     .paragrafo-home{
         font-size: 25px;
         line-height: 37.5px;
-
-
+        padding-left: 22px;
     }
 }
