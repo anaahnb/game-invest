@@ -9,5 +9,5 @@
 
 ## Sobre o projeto
 <div align="justify">
-  No <a href= https://www.inova.ma.gov.br/trilhas> <b>Programa Trilhas</b> </a> recebemos o desafio de desenvolver um projeto realacionado ao mercado financeiro.  Dessa forma, através de pesquisas, decidimos abordar a seguintes temática: <b>Jovens e o mundo do mercado financeiro</b>. O principal objetivo é ajudar esse público, que nunca investiu, dar os primeiros passos e mostrar a importância de tal feito.
+  No <a href= https://www.inova.ma.gov.br/trilhas> <b>Programa Trilhas</b> </a> recebemos o desafio de desenvolver um projeto realacionado ao mercado financeiro.  Dessa forma, através de pesquisas, decidimos abordar a seguintes temática: <b>Jovens e o mundo do mercado financeiro</b>. O principal objetivo é ajudar esse público, que nunca investiu, dar os primeiros passos e mostrar a importância de tal feito de uma maneira mais divertida.
 </div>
