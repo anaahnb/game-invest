@@ -1,4 +1,7 @@
 @media only screen and (min-width: 0px){
+    #Vantagens{
+        margin-bottom: 5em;
+    }
     #Vantagens h2{
         margin: 0;
 
@@ -17,7 +20,7 @@
         border: solid 2px black;
         height: 300px;
         padding: 1em;
-        justify-content: space-between;
+        justify-content: center;
         text-align: center;
         border-radius: 25px;
     }
@@ -37,6 +40,23 @@
 
     .item-vantagens{
         width: 60%;
+    }
+
+    .item-vantagens p{
+        font-size: 0.8em;
+        line-height: 17px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+
+        padding: 5px;
+    }
+
+    .item-vantagens strong{
+        font-size: 1.6em;
+        line-height: 12px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+
     }
 }
 
@@ -64,7 +84,8 @@
         font-size: 1.5em;
     }
     .item-vantagens{
-        width: 20%;
+        width: 30%;
+        height: 350px;
     }
     .flex-vantagens{
         justify-content: center;
@@ -72,18 +93,17 @@
         gap: 2em;
         padding: 50px;
     }
+
+    .item-vantagens p{
+        font-size: 1em;
+        line-height: 31px;
+        padding: 10px;
+       
+    }
+
+    .item-vantagens strong{
+        font-size: 1.3em;
+        
+    }
 }
 
-
-
-
-/* @media only screen and (max-width: 810px) {
-    .flex-vantagens{
-        flex-direction: column;
-        gap: 2em;
-    }
-
-    .item-vantagens{
-        width: 100%;
-    }
-  } */
