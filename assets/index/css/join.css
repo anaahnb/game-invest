@@ -1,0 +1,17 @@
+/* Estilo */
+@import url("estilo/style.css");
+
+/* Header */
+@import url("header/header.css");
+
+/* Home */
+@import url("home/home.css");
+
+/* Explicando RPG */
+@import url("explicandoRPG/explicandoRPG.css");
+
+/* Vantagens de Investir */
+@import url("vantagens-de-investir/vantagens-de-investir.css");
+
+/* Footer */
+@import url("footer/footer.css");
