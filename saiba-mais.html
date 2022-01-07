@@ -2,155 +2,299 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Invest</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Inter:wght@300;400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.google.com/share?selection.family=Poppins:wght@400;500" rel="stylesheet">
-  <!-- Css -->
-  <link rel="stylesheet" href="./assets/index/css/join.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saiba Mais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Inter:wght@300;400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link href="https://fonts.google.com/share?selection.family=Poppins:wght@500" rel="stylesheet">
+    <!-- Css -->
+    <link href="./assets/saiba-mais/css/join.css" rel="stylesheet" />
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="main-header">
-    <div class="header-main">
-      <img src="./assets/index/img/header/logo.svg" />
-      <nav class="header__nav">
-        <ul class="nav-ul" id="nav-bar">
-          <li><a href="#Descrição" class="nav-li">Descrição</a></li>
-          <li><a href="#Vantagens" class="nav-li">Vantagens</a></li>
-          <li><a href="#meios-investimento" class="nav-li">Meios de Investimento</a></li>
-          <button class="botaoJogar"><a  href="#">Jogar</a></button>
-        </ul>
-      </nav>
-      <button onclick="navbar()" class="header__Botao__Burguer" type="button" data-toggle="collapse">
-        <img src="./assets/index/img/header/Group 57.png" alt="Burguer navegação">
-      </button>
-    </div>
-  </header>
-  <!-- Header -->
-
-
-  <!-- Home -->
-  <section id="home" alt="HomePage">
-    <div class="container_home">
-      <div class="home_texto">
-        <h1 class="home_titulo">
-          Você está preparado para<br> entrar no mundo dos<br> investimentos?
-        </h1>
-        <p class="home_descricao">Descubra o seu perfil de investidor por meio do nossso game RPG e ainda
-          adquira um conhecimento básico para começar a investir de forma segura e condizente com você e seus objetivos.
-        </p>
-        <div class="button__container">
-          <button><a class="button__index__jogar" href="#">Jogar</a></button>
-          <button id="saber"><a class="button__index__saber" href="saiba-mais.html">Saber mais</a></button>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-main">
+          <img src="./assets/saiba-mais/img/header/logo.svg" />
+          <nav class="header__nav">
+            <ul class="nav-ul" id="nav-bar">
+              <li><a href="#Descrição" class="nav-li">Descrição</a></li>
+              <li><a href="#Vantagens" class="nav-li">Vantagens</a></li>
+              <li><a href="#meios-investimento" class="nav-li">Meios de Investimento</a></li>
+            </ul>
+          </nav>
+          <button onclick="navbar()"  class="header__Botao__Burguer" type="button" data-toggle="collapse">
+            <img src="./assets/saiba-mais/img/header/Group 57.png" alt="Burguer navegação">
+          </button>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- Home -->
-
-
-<!-- Explicação Do RPG -->
-  <section class='explicandoRPG'>
-    <div class="container_explicação_do_RPG">
-      <div class="textoRpg1">
-      <div class="texto1">
-        <p>O nosso RPG foi criado com a proposta de dar aos jovens que nunca investiram antes os primeiros passos para
-          entrar no mundo do mercado financeiro. Saber sobre o seu perfil de investidor é importante para que você saiba
-          como e por onde começar a investir.</p>
-      </div>
-        <div class="texto2" <p>Começar a investir pode ser uma motivação tanto para aquele que está endividado, mas
-          buscando fazer um controle financeiro e começar a juntar dinheiro pensando no futuro. como para aquele que já
-          consegue guardar algum dinheiro, mas acaba deixando na poupança por falta de conhecimento em como fazer esse
-          dinheiro render.</p>
+      </header>
+      <!-- Header -->
+<main>  
+      <!-- Home -->
+      <section id="home" alt="HomePage">
+        <div class="container home">
+          <div class="texto-home">
+            <h1 class="titulo-home">Manual Do Futuro Investidor</h1>
+            <img
+            src="./assets/saiba-mais/img/home/moneyBag.svg"
+            alt="Saco de dinheiro pixelado com uma seta vermelha em crescente e moedas de ouro ao fundo."
+            loading="lazy"
+          />
+          </div>
+          <div class="conteiner__home__paragrafo">
+            <p class="paragrafo-home">
+              Tudo que você precisa saber antes do seu primeiro investimento
+            </p>
           </div>
         </div>
-      </div>
-  </section>
-  <!-- Explicação Do RPG -->
+      </section>
+      <!-- Home -->
 
-  <!-- Vantagens de Investir -->
-  <section id='Vantagens' alt='Seção Vantagens'>
-    <h2>Conheça as Vantagens de Investir</h2>
-    <div class='container descricao'>
-      <div class='flex-vantagens'>
-        <div class='item-vantagens'>
-          <img src='assets/index/img/vantagens-de-investir/bag.svg' alt=''>
-          <p>
-            <strong>Segurança</strong> <br />
-            Investir pode lhe garantir estabilidade e uma reserva financeira em tempos de crise.
-          </p>
+    <!-- Começar -->
+      <section id="comecar" alt="Antes de comecar">
+        <div class="container__começar">
+          <div class="content__comecar__titulo">
+            <img src="./assets/saiba-mais/img/grafico-antes-de-começar.svg" alt="Grafico">
+              <h2>Antes de Começar....</h2>
+          </div>
+          <div class="content__comecar__paragrafos">
+            <p>Antes de começar a investir pense primeiro no <strong>objetivo</strong> com tal investimento. Tenha uma meta e trace a melhor 
+              estratégia para alcança-la. Sabendo onde se quer chegar, fica mais fácil escolher o investimento adequado ao 
+              seu propósito – onde, quando e por quanto tempo investir.</p>
+            <p>
+              A partir de sua meta, defina três pontos iniciais: o <strong>tempo</strong>  para deixar seu valor aplicado,<strong>com quanto</strong>  você pretende começar e quais os <strong>riscos</strong> você estará disposto a assumir. 
+              Traçar o seu <strong>perfil de investidor</strong>  pode lhe ser útil com isso. A partir do seu perfil, você pode se conhecer melhor e identificar investimentos mais adequados para você.
+            </p>
+          </div>
         </div>
-        <div class='item-vantagens'>
-          <img src='assets/index/img/vantagens-de-investir/heart.svg'>
-          <p>
-            <strong>
-              Realizar metas e sonhos!
-            </strong> <br />
-            Você pode conseguir planejar sua aposentadoria ou fazer aquela tão sonhada viagem.
-          </p>
+      </section>
+      <!-- Começar -->
+
+    <!-- Vantagens de Investir -->
+      <section id = 'Vantagens' alt= 'Seção Vantagens'>
+        <h2>Vantagens de Investir</h2>
+        <div class = 'container descricao'>
+            <div class = 'flex-vantagens'>
+                <div class = 'item-vantagens'>
+                    <img src = 'assets/saiba-mais/img/vantagens-de-investir/bag.svg' alt = ''>
+                    <p>
+                      <strong>Segurança</strong> <br/>
+                      Investir pode lhe garantir estabilidade e uma reserva financeira  em tempos de crise.
+                    </p>
+                </div>
+                <div class = 'item-vantagens'>
+                  <img src = 'assets/saiba-mais/img/vantagens-de-investir/heart.svg'>
+                  <p>
+                    <strong>
+                      Realizar metas e sonhos!
+                    </strong> <br/>
+                    Você pode conseguir planejar sua aposentadoria ou fazer aquela tão sonhada viagem.
+                  </p>
+              </div>
+                <div class = 'item-vantagens'>
+                    <img src = 'assets/saiba-mais/img/vantagens-de-investir/moedas.svg'>
+                    <p>
+                      <strong>
+                        Acumular patrimônio
+                      </strong> <br/>
+                      Fazer o dinheiro trabalhar pra você é uma ótima forma de multiplicar seu capital.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class='item-vantagens'>
-          <img src='assets/index/img/vantagens-de-investir/moedas.svg'>
-          <strong>
-            Acumular <br> Patrimônio
-          </strong> <br />
-          Fazer o dinheiro trabalhar pra você é uma ótima forma de multiplicar seu capital.
-          </p>
+      </section>
+    <!-- Vantagens de Investir -->
+
+    <!-- Perfil do ivestidor -->
+      <section alt="perfil-investidor-iniciante">
+        <div class="conteiner__perfil__investidor">
+          <h2>Perfil do Investidor Iniciante</h2>
+  
+            <div class="content__perfil__investidor">
+                </div class="perfil__investidor">
+                  <div class="perfil__investidor__caixa">
+                    <img class="perfil__investidor__imagem__1"  src="./assets/saiba-mais/img/perfil-do-investidor/perfil-conservador.svg" alt="personagem conservador">
+                      <div class="perfil__">
+                        <h3>Investidor Conservador</h3>
+                        <p>
+                          Sempre prioriza a <strong>segurança</strong> em suas aplicações. Na sua carteira, ele mantém a maior parte dos investimentos em produtos de <strong>baixo risco</strong> , especialmente os de Renda Fixa, como o Tesouro Direto.
+                        </p>
+                      </div>
+                  </div>
+                  <div class="perfil__investidor__caixa perfil__troca">
+                    <img class="perfil__investidor__imagem__2" src="./assets/saiba-mais/img/perfil-do-investidor/perfil-moderado.svg" alt="personagem moderador">
+                    <div class="perfil__">
+                      <h3>Investidor Moderado</h3>
+                      <p>
+                        Este tipo de investidor, também gosta de segurança, mas já possui tolerância a riscos de longo prazo, por estar entre os conservadores e os agressivo. Ele pode optar por investimentos <strong>mais arriscados dependendo da situação.</strong> 
+                      </p>
+                    </div>
+                  </div>
+                    
+                </div>
+            </div>
         </div>
-      </div>
+      </section>
+     <!-- Perfil do ivestidor -->
+
+    <!-- Seção Principais Meios de Investimento -->
+<section class="principaisMeiosdeInvestimento">
+    <h2 class="principaisMeiosdeInvestimento_titulo">Principais Meios de Investimento</h2>
+    <!-- Renda Fixa -->
+    <h3 class="rendaFixa_titulo">Renda Fixa</h3>
+    <div class="rendaFixa_cards">
+        <div class="rendaFixa__card rendaFixa__card-secundario CDB">
+            <div class="rendaFixa__card-secundario--CDB"></div>
+            <h2 class="rendaFixa__card--titulo">
+                CDB
+            </h2>
+            <h3 class="rendaFixa__subtituloCDB">Certificado de Depósito<br> Bancário</h3>
+            <p class="rendaFixa_descricao">É um título de renda fixa emitido por bancos para captar
+                dinheiro e financiar suas atividades. Quem
+                compra CDBs empresta dinheiro para os bancos financiarem suas atividades de crédito.</p>
+        </div>
+        <div class="rendaFixa__card rendaFixa__card-principal">
+            <div class="rendaFixa__card-principal--LCI"></div>
+            <h2 class="rendaFixa__card--titulo rendaFixa__card-principal--titulo">
+                LCI
+            </h2>
+            <h3 class="rendaFixa__subtitulo">
+                Letra de Crédito Imobiliário
+            </h3>
+            <p class="rendaFixa_descricao">É um investimento para apoiar o financiamento imobiliário
+                no país. Tem o objetivo de captar recursos
+                financeiros para empréstimos no setor imobiliário. Quando você compra um título, recebe em troca um
+                rendimento pré-estabelecido.<b> Não possui taxa de administração, é livre de IR e qualquer outra
+                    tributação.</b>
+            </p>
+        </div>
+        <div class="rendaFixa__card rendaFixa__card-secundario">
+            <div class="rendaFixa__card-secundario--tesouroDireto"></div>
+            <h2 class="rendaFixa__card--titulo">
+                Tesouro Direto
+            </h2>
+            <p class="rendaFixa_descricao">É um programa do Tesouro Nacional que permite a compra e
+                venda de títulos públicos federais por pessoas
+                físicas, de liquidez diária e de risco muito baixo. O investimento mínimo é de R$30,00. Podemos dizer
+                que ao comprar um título do Tesouro Direto você está emprestando dinheiro ao governo.</p>
+        </div>
     </div>
-  </section>
-  <!-- Vantagens de Investir -->
+    <!-- Renda Fixa -->
 
-  <!-- Footer -->
-  <footer class="main-footer">
+    <!-- Renda Variável -->
+    <h3 class="rendaVariavel_titulo">Renda Variável</h3>
+    <div class="rendaVariavel_cards">
+        <div class="rendaVariavel__card rendaVariavel__card-secundario acoes">
+            <div class="rendaVariavel__card-secundario--acoes"></div>
+            <h2 class="rendaVariavel__card--titulo">
+                Ações
+            </h2>
+            <p class="rendaVariavel_descricao">São títulos de propriedade que dão aos seus investidores a participação
+                na sociedade de uma determinada empresa. As ações podem ser de dois tipos, <b>ordinárias ou
+                    preferenciais</b>,
+                onde as ordinárias dão ao seu investidor direito de voto nas assembleias de acionistas enquanto as
+                preferenciais permitem o recebimento de <b>dividendos</b> (o dividendo é a parte do lucro de uma empresa
+                que é
+                dividida com seus acionistas) em um valor superior ao das ações ordinárias.</p>
+        </div>
+        <div class="rendaVariavel__card rendaVariavel__card-principal">
+            <div class="rendaVariavel__card-principal--ETF"></div>
+            <h2 class="rendaVariavel__card--titulo rendaVariavel__card-principal--titulo">
+                ETF
+            </h2>
+            <h3 class="rendaVariavel__subtitulo">
+                exchange-traded fund<br>(fundos de índice)
+            </h3>
+            <p class="rendaVariavel_descricao">É um grupo formado por ações de empresas que compõem um índice. O número
+                de empresas pode variar, mas esse índice é uma espécie de trend de ações, ou seja, tendências. Assim
+                como o Spotify oferece os trends das músicas de cada estilo, ou o Google nos mostra quais os assuntos
+                trends (mais pesquisados) do momento, o índice apresenta as trends das ações de acordo com diferentes
+                critérios, como: as mais negociadas, maior liquidez, maior potencial de valorização e entre outros.
+            </p>
+        </div>
+        <div class="rendaVariavel__card rendaVariavel__card-secundario">
+            <div class="rendaVariavel__card-secundario--fundoImobiliario"></div>
+            <h2 class="rendaVariavel__card--titulo">
+                Fundo Imobiliário
+            </h2>
+            <p class="rendaVariavel_descricao">É uma espécie de “condomínio” de investidores, que reúnem seus recursos
+                para que sejam aplicados em conjunto no mercado imobiliário. A dinâmica mais tradicional é que o
+                dinheiro seja usado na construção ou na compra de imóveis, que depois serão alugados ou vendidos. Os
+                ganhos obtidos com esse tipo de investimento são divididos entre os participantes, na proporção em que
+                cada investiu</p>
+        </div>
+    </div>
+    <!-- Renda Variável -->
+
+</section>
+    <!-- Seção Principais Meios de Investimento -->
+
+<!-- Seção Joguinho (explicação)-->
+<section class="joguinho">
+    <div class="joguinho-container">
+        <div class="joguinho-img">
+            <!-- Imagem -->
+            <img src="assets/saiba-mais/img/vamosJogar/joguinho.svg" alt="">
+            <div class="joguinho-texto">
+                <p>O nosso RPG foi criado com a proposta de dar aos jovens que nunca investiram antes os
+                    primeiros
+                    passos para entrar no mundo do mercado financeiro. Saber sobre o seu perfil de investidor é
+                    importante para que você saiba como e por onde começar a investir.</p>
+                    <!-- botão -->
+                    <div class="botao">
+                    <a href="#">VAMOS JOGAR!</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Seção Joguinho (explicação)-->
+</main>
+
+<!-- Footer -->
+<footer class="main-footer">
     <!-- Listras -->
-    <img src='assets/index/img/footer/listras.svg' alt='' class='listras'>
+    <img src='assets/saiba-mais/img/footer/listras.svg' alt='' class='listras'>
     <div class='container footer'>
-      <!-- Logo Game Invest -->
-      <img src='assets/index/img/footer/logo.svg' alt='Logo' class="logo">
-      <!-- Título do Footer -->
-      <p class="titulo-footer">Projeto desenvolvido pelo time do <strong>Programa Trilhas - Inova
-          Maranhão</strong></p>
-      <div class='flex-footer'>
-        <div class='item-footer'>
-          <h4>Time Dados</h4>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Clebson Machado</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Luiz Felipe</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Railson Douglas</a>
+        <!-- Logo Game Invest -->
+        <img src='assets/saiba-mais/img/footer/logo.svg' alt='Logo' class="logo">
+        <!-- Título do Footer -->
+        <p class="titulo-footer">Projeto desenvolvido pelo time do <strong>Programa Trilhas - Inova
+                Maranhão</strong></p>
+        <div class='flex-footer'>
+            <div class='item-footer'>
+                <h4>Time Dados</h4>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Clebson Machado</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Luiz Felipe</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Railson Douglas</a>
+            </div>
+            <div class='item-footer'>
+                <h4>Time Design</h4>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Ayla Andrade</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Elda Ramos</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Maysa Mafra</a>
+            </div>
+            <div class='item-footer'>
+                <h4>Time Programação</h4>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Ana Júlia Alencar</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Igor Lima</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>João Guilherme </a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Kelvyn Reis</a>
+                <a href=# class='link-footer'><img src='assets/saiba-mais/img/footer/linkedin.svg'>Melissa Palhano</a>
+            </div>
         </div>
-        <div class='item-footer'>
-          <h4>Time Design</h4>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Ayla Andrade</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Elda Ramos</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Maysa Mafra</a>
-        </div>
-        <div class='item-footer'>
-          <h4>Time Programação</h4>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Ana Júlia Alencar</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Igor Lima</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>João Guilherme </a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Kelvyn Reis</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Melissa Palhano</a>
-        </div>
-      </div>
-      <p class="copyright">
-        Copyright © 2022. GameInvest All rights reserved.
-      </p>
+        <p class="copyright">
+            Copyright © 2022. GameInvest All rights reserved.
+        </p>
     </div>
-  </footer>
-  <!-- Footer -->
+</footer>
+<!-- Footer -->
 
-  </main>
-  <script src="./assets/index/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/renda_variavel/graphc.js"></script>
+    <script src="./assets/saiba-mais/js/main.js"></script>
+
 </body>
-
-</html>
