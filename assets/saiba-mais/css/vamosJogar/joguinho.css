@@ -1,0 +1,178 @@
+/* Celular */
+@media screen and (min-width: 0) {
+        .joguinho-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem 15%;
+        }
+
+
+        .joguinho .joguinho-container .joguinho-img img {
+                height: 80%;
+                width: 80%;
+                object-fit: cover;
+        }
+
+        .joguinho .joguinho-container .joguinho-texto {
+                padding: 2rem 0;
+                flex: 1 1 37rem;
+        }
+
+
+        .joguinho .joguinho-container .joguinho-texto p {
+                font-family: 'Poppins', sans-serif;
+                padding: 1rem 0rem 4rem;
+                font-size: 1rem;
+                line-height: 20px;
+
+        }
+
+        .joguinho-img {
+                flex: 1 1 37rem;
+                text-align: center;
+        }
+
+        .joguinho {
+                background-color: #FFF5DA;
+                padding-top: 3rem;
+                padding-bottom: 7rem;
+
+        }
+
+        
+        .botao a {
+                font-family: 'Poppins', sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+                background-color: #F6B43A;
+                color: #ffffff;
+                padding: 0.8em 0.8em;
+                border-radius: 15px;
+                transition: 0.5s;
+        }
+
+        .botao a:hover {
+                background-color: #34830f;
+        }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 744px) {
+        .joguinho-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem 15%;
+        }
+
+
+        .joguinho .joguinho-container .joguinho-img img {
+                height: 80%;
+                width: 80%;
+                object-fit: cover;
+        }
+
+        .joguinho .joguinho-container .joguinho-texto {
+                padding: 2rem 0;
+                flex: 1 1 37rem;
+        }
+
+
+        .joguinho .joguinho-container .joguinho-texto p {
+                font-family: 'Poppins', sans-serif;
+                padding: 1rem 0rem 4rem;
+                font-size: 1.2rem;
+                line-height: 20px;
+
+        }
+
+        .joguinho-img {
+                flex: 1 1 37rem;
+                text-align: center;
+        }
+
+        .joguinho {
+                background-color: #FFF5DA;
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+
+        }
+
+        .botao a {
+                font-family: 'Poppins', sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+                background-color: #F6B43A;
+                color: #ffffff;
+                padding: 1em 2em;
+                border-radius: 15px;
+                transition: 0.5s;
+        }
+
+        .botao a:hover {
+                background-color: #34830f;
+        }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+        .joguinho-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem 15%;
+        }
+
+
+        .joguinho .joguinho-container .joguinho-img img {
+                height: 80%;
+                width: 80%;
+                object-fit: cover;
+        }
+
+        .joguinho .joguinho-container .joguinho-texto {
+                padding: 2rem 13rem;
+                flex: 1 1 37rem;
+        }
+
+
+        .joguinho .joguinho-container .joguinho-texto p {
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                padding: 1rem 0rem 4rem;
+                font-size: 1.5rem;
+                line-height: 30px;
+
+
+        }
+
+        .joguinho-img {
+                flex: 1 1 37rem;
+                text-align: center;
+        }
+
+        .joguinho {
+                background-color: #FFF5DA;
+                padding-top: 7rem;
+                padding-bottom: 7rem;
+
+        }
+
+        .botao a {
+                font-family: 'Poppins', sans-serif;
+                text-decoration: none;
+                background-color: #F6B43A;
+                color: #ffffff;
+                padding: 1em 2em;
+                border-radius: 15px;
+                transition: 0.5s;
+        }
+
+        .botao a:hover {
+                background-color: #34830f;
+        }
+
+}

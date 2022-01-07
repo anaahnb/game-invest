@@ -1,0 +1,153 @@
+/* Celular */
+@media screen and (min-width: 0) {
+
+    .rendaVariavel_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .rendaVariavel__card {
+        border: 6px solid #6FB272;
+        background-color: var(--branco);
+        width: 250px;
+        margin-bottom: 30px;
+        border-radius: 35px;
+        text-align: center;
+        padding: 20px 12px;
+        font-family: Poppins;
+        transition: 0.8s ease all;
+    }
+
+    .rendaVariavel__card:hover {
+        transform: scale(1.08);
+        box-shadow: 0px 6px 8px rgba(200, 178, 216, 0.16);
+    }
+
+    .rendaVariavel__card-principal {
+        border: 6px solid #173503;
+    }
+
+    .rendaVariavel__card-principal--ETF {
+        background: url(../../img/principaisMeiosdeInvestimento/etf.svg) no-repeat center;
+        height: 115px;
+    }
+
+    .rendaVariavel__card-secundario--acoes {
+        background: url(../../img/principaisMeiosdeInvestimento/acoes.svg) no-repeat center;
+        height: 115px;
+    }
+
+    .rendaVariavel__card-secundario--fundoImobiliario {
+        background: url(../../img/principaisMeiosdeInvestimento/fundoImobiliario.svg) no-repeat center;
+        height: 115px;
+    }
+
+    .rendaVariavel__card--titulo {
+        font-family:'Poppins', sans-serif;
+        color: #6FB272;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin: 1px 0;
+    }
+
+    .rendaVariavel__card-principal--titulo {
+        font-family:'Poppins', sans-serif;
+        font-size: 14px;
+        color: #173503;
+    }
+   
+}
+
+
+/* Tablet */
+@media screen and (min-width: 744px) {
+    .rendaVariavel_cards {
+        flex-direction: row;
+        /* align-items: flex-end; */
+        justify-content: center;
+        border-radius:  3.5rem;
+    }
+
+
+    .rendaVariavel__card {
+        width: 19rem;
+        margin: 10px;
+    }
+
+    .rendaVariavel__card-principal {
+        /* height: 25rem; */
+    }
+
+    .rendaVariavel__card-principal--ETF {
+        background-size: contain;
+        height: 88px;
+    }
+
+    .rendaVariavel__card-secundario--acoes,
+    .rendaVariavel__card-secundario--fundoImobiliario {
+        background-size: contain;
+        height: 72px;
+    }
+
+    .rendaVariavel__card--titulo {
+        font-family:'Poppins', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .rendaVariavel__card-principal--titulo {
+        font-family:'Poppins', sans-serif;
+        font-size: 18px;
+        color: #173503;
+
+    }
+
+}
+
+
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .rendaVariavel__card {
+        width: 24rem;
+        margin: 2   0px;
+        height: 45rem;
+        border-width: 8px;
+        border-radius: 3.5rem;
+        padding-top: 32px;
+    }
+
+    .rendaVariavel__card-principal {
+        width: 24rem;
+        margin: 0rem 1rem;
+        height: 49rem;
+        border-width: 7px;
+        border-radius: 3.5rem;
+        padding-top: 32px;
+    }
+
+    .rendaVariavel__card-principal--ETF {
+        height: 120px;
+    }
+
+    .rendaVariavel__card-secundario--acoes,
+    .rendaVariavel__card-secundario--fundoImobiliario {
+        height: 100px;
+    }
+
+    .rendaVariavel__card--titulo {
+        font-family:'Poppins', sans-serif;
+        font-size: 1.5rem;
+        margin-top: 28px;
+        margin-bottom: 5px;
+    }
+
+    .rendaVariavel__card-principal--titulo {
+        font-family:'Poppins', sans-serif;
+        font-size: 22px;
+        color: #173503;
+
+    }
+
+}
