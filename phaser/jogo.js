@@ -195,6 +195,10 @@ function create ()
     // Parar o movimento do personagem ao soltar a tecla
     teclado = this.input.keyboard.on('keyup', movimParar, this);
 
+    // Ao falar com o NPC, permite usar a tecla ENTER para entrar no questionário
+    teclado = this.input.keyboard.on('keydown-ENTER', abrirLinkTeclado, this);
+    
+
     // Botões para controlar o personagem por mouse
     controleCima = this.add.image(675, 375, 'botoes').setOrigin(0, 0).setAlpha(0.6);
     controleBaixo = this.add.image(750, 575, 'botoes').setOrigin(0, 0).setAlpha(0.6);
@@ -295,5 +299,12 @@ function abrirLink ()
     else if (!s)
     {
         window.location.href = url;
+    }
+}
+
+function abrirLinkTeclado ()
+{
+    if (botaoComecar.visible == true){
+        abrirLink();
     }
 }
