@@ -108,17 +108,17 @@
 /* Desktop */
 @media screen and (min-width: 1024px) {
     .rendaFixa__card {
-        width: 21rem;
+        width: 24rem;
         margin: 2   0px;
-        height: 38rem;
+        height: 34rem;
         border-width: 8px;
         border-radius: 3.5rem;
         padding-top: 32px;
     }
 
     .rendaFixa__card-principal {
-        height: 42rem;
-        width: 21rem;
+        height: 40rem;
+        width: 24rem;
         margin:20px;
         border-width: 7px;
         border-radius: 3.5rem;

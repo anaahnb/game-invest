@@ -30,7 +30,7 @@
 /* Tablet */
 @media screen and (min-width: 744px) {
     .principaisMeiosdeInvestimento_titulo {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family:'Press Start 2P', cursiva;
         color: #173503;
 
@@ -55,7 +55,7 @@
 @media screen and (min-width: 1024px) {
     .principaisMeiosdeInvestimento_titulo {
         font-family:'Press Start 2P', cursiva;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #173503;
 
     }
