@@ -110,18 +110,18 @@
 /* Desktop */
 @media screen and (min-width: 1024px) {
     .rendaVariavel__card {
-        width: 22rem;
+        width: 24rem;
         margin: 2   0px;
-        height: 35rem;
+        height: 45rem;
         border-width: 8px;
         border-radius: 3.5rem;
         padding-top: 32px;
     }
 
     .rendaVariavel__card-principal {
-        width: 22rem;
+        width: 24rem;
         margin: 0rem 1rem;
-        height: 42rem;
+        height: 49rem;
         border-width: 7px;
         border-radius: 3.5rem;
         padding-top: 32px;

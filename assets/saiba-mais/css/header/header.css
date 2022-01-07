@@ -7,13 +7,10 @@
     .main-header{
         height: 30px;
         width: 100vw;
-
         background-color: #020202;
         color: white;
-
         display: flex;
         justify-content: space-between;
-        position: fixed;
     }
     .header-main > img{
         width: 115px;
