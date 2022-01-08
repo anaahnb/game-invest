@@ -57,7 +57,7 @@
         color: white;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 14px;
         display: block;
     }
 
@@ -135,10 +135,9 @@
 
     .header__nav a {
         font-family: var(--poppins);
-        color: white;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 16px;
         display: block;
     }
 
@@ -152,7 +151,7 @@
     
     .botaoJogar{
         background: #F9AA18;
-        padding: 0rem 0.5rem 0rem 0.5rem;
+        padding: 0rem 0.2rem 0rem 0.2rem;
         border: none;
 
 
@@ -168,10 +167,11 @@
         width: 100%;
         justify-content: space-between;
         padding: 0px 100px;
+        align-items: center;
     }
 
     .main-header {
-        height: 80px;
+        height: 70px;
     }
 
     .header-main>img {
@@ -199,10 +199,15 @@
 
     .botaoJogar{
         background: #F9AA18;
-        border-radius: 50px;
-        padding: 0rem 0.5rem 0rem 0.5rem;
+        border-radius: 36px;
+        width: 90px;
+        height: 27px;
         border: none;
 
-
     }
+
+    .header__nav a {
+        padding: 0 18px;
+    }
+
 }

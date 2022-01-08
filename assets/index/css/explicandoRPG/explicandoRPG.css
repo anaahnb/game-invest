@@ -1,9 +1,7 @@
 /* Celular */
 @media screen and (min-width: 0) {
     .explicandoRPG {
-        padding: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1.5rem;
+        padding: 2rem;
     }
 
     .container_explicação_do_RPG {
@@ -14,7 +12,7 @@
         font-family: 'Poppins', sans-serif;
         color: #fff;
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 13px;
         line-height: 20px;
         padding: 0.4rem 2rem;
         text-align: justify;
@@ -49,8 +47,6 @@
         text-align: justify;
     }
 
-    .texto1 {}
-
     .texto2 {
 
         padding-top: 2rem;
@@ -63,7 +59,7 @@
     .explicandoRPG {
         padding: 2rem;
         padding-top: 4rem;
-        padding-bottom: 6rem;
+        padding-bottom: 2rem;
     }
 
     .container_explicação_do_RPG {
@@ -73,17 +69,14 @@
     .textoRpg1 {
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
-        font-size: 1.6rem;
+        font-size: 18px;
         line-height: 35px;
         padding: 2rem 15rem;
         text-align: justify;
         margin: 1rem;
     }
 
-    .texto1 {}
-
     .texto2 {
-
         padding-top: 2rem;
     }
 }
