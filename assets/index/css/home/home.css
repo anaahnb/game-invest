@@ -1,0 +1,438 @@
+/* Celular */
+@media only screen and (min-width: 0px) {
+    #home {
+        background-image: url('../../img/home/index-background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 99%;
+    }
+
+    
+    .home{
+        height: 300px;
+        padding: 2em 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .container_home {
+        max-width: 1200px;
+        padding: 72px 24px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .home_texto {
+        font-weight: 600;
+    }
+
+    .home_titulo {
+        font-family: 'Press Start 2P', cursive;
+        margin: 0;
+        font-size: 1rem;
+        line-height: 30px;
+        max-width: 597px;
+        color: #fff;
+        text-align: left;
+    }
+
+    .home_descricao {
+        line-height: 23px;
+        font-size: 16px;
+        margin: 12px 0 18px 0;
+        max-width: 473px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .homePage_botoes {
+        max-width: 355px;
+        min-width: 305px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .homePage_botoes button {
+        padding: 2rem 1rem;
+    }
+
+    .button__container {
+        justify-content: center;
+        display: flex;
+    }
+
+    .button__container button {
+        padding: 0.7rem 1rem;
+        border-radius: 20px;
+        border: none;
+        margin: 20px;
+        background-color: #4E948E;
+
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .button__container button:hover {
+        background-color: #87e7df;
+        transform: translateY(-5px);
+    }
+
+    .button__container button:nth-child(1) {
+        background-color: #F6B43A;
+        transition: 2s;
+        padding: 0.7rem 1.5rem;
+    }
+
+    .button__container button:nth-child(1):hover {
+        background-color: #e09a18;
+
+    }
+
+    .content__index__principal {
+        max-width: 1013px;
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 3.5rem;
+        line-height: 43.2px;
+        color: black;
+    }
+
+    .button__container button a {
+        font-family: 'Press Start 2P', cursive;
+        font-style: none;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .texto1{
+        padding-bottom: 1rem;
+    }
+    .texto2{
+        padding-bottom: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 360px) {
+    .container_home {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .home_texto {
+        max-width: 320px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .geral__botao {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .homePage_botoes {
+        min-width: 0;
+    }
+
+    .botao_jogar {
+        margin: 0;
+        padding: 2rem;
+        background: #F9AA18;
+        color: #F9AA18;
+        font-size: 5rem;
+    }
+}
+
+
+/* Tablet */
+
+@media only screen and (min-width: 744px) {
+    #home {
+        background-image: url('../../img/home/index-background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        padding-bottom: 25rem;
+    } 
+
+    .home {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .introducao {
+        background-color: var(--azul);
+        display: flex;
+        align-items: center;
+    }
+
+
+    .container_home {
+        padding: 15rem 0rem 0rem 0rem;
+        margin: 0rem;
+        /* display: flex; */
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .home_texto {
+        font-weight: 600;
+        /* padding-left: 11rem; */
+    }
+
+    .home_titulo {
+        text-align: left;
+        font-family: 'Press Start 2P', cursive;
+        margin: 0;
+        font-size: 2.2rem;
+        line-height: 52px;
+        max-width: 100rem;
+        color: #fff;
+    }
+
+    .home_descricao {
+        font-family: 'Poppins', sans-serif;
+        style: normal;
+        font-weight: 500;
+        color: #fff;
+        line-height: 35px;
+        font-size: 16px;
+        margin: 12px 0 18px 0;
+        max-width: 50rem;
+        font-size: 1rem;
+    }
+
+    .homePage_botoes {
+        max-width: 355px;
+        min-width: 305px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .homePage_botoes button {
+        padding: 2rem 1rem;
+    }
+
+    .button__container {
+        justify-content: center;
+        display: flex;
+    }
+
+    .button__container button {
+        padding: 1rem 3rem;
+        border-radius: 20px;
+        border: none;
+        margin: 20px;
+        background-color: #4E948E;
+
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .button__container button:hover {
+        background-color: #87e7df;
+        transform: translateY(-5px);
+    }
+
+    .button__container button:nth-child(1) {
+        background-color: #F6B43A;
+        transition: 2s;
+        padding: 1rem 5.5rem;
+    }
+
+    .button__container button:nth-child(1):hover {
+        background-color: #e09a18;
+
+    }
+
+    .content__index__principal {
+        max-width: 1013px;
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 3.5rem;
+        line-height: 43.2px;
+        color: black;
+    }
+
+    .button__container button a {
+        font-family: 'Press Start 2P', cursive;
+        font-style: none;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+}
+
+
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    #home {
+        background-image: url('../../img/home/index-background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        padding-bottom: 23rem;
+    } 
+
+    .home {
+        height: 300px;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .introducao {
+        background-color: var(--azul);
+        display: flex;
+        align-items: center;
+    }
+
+
+    .container_home {
+        padding: 15rem 0rem 0rem 0rem;
+        margin: 0rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .home_texto {
+        font-weight: 600;
+        /* padding-left: 11rem; */
+    }
+
+    .home_titulo {
+        text-align: left;
+        font-family: 'Press Start 2P', cursive;
+        margin: 0;
+        font-size: 2.2rem;
+        line-height: 52px;
+        max-width: 100rem;
+        color: #fff;
+    }
+
+    .home_descricao {
+        font-family: 'Poppins', sans-serif;
+        style: normal;
+        font-weight: 500;
+        color: #fff;
+        line-height: 35px;
+        font-size: 16px;
+        margin: 12px 0 18px 0;
+        max-width: 50rem;
+        font-size: 1.2rem;
+    }
+
+    .homePage_botoes {
+        max-width: 355px;
+        min-width: 305px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .homePage_botoes button {
+        padding: 2rem 1rem;
+    }
+
+    .button__container {
+        justify-content: center;
+    }
+
+    .button__container button {
+        padding: 1.1rem 5rem;
+        border-radius: 20px;
+        border: none;
+        margin: 20px;
+        background-color: #4E948E;
+
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .button__container button:hover {
+        background-color: #87e7df;
+        transform: translateY(-5px);
+    }
+
+    .button__container button:nth-child(1) {
+        background-color: #F6B43A;
+        transition: 2s;
+        padding: 0.82rem 7rem;
+    }
+
+    .button__container button:nth-child(1):hover {
+        background-color: #e09a18;
+
+    }
+
+    .content__index__principal {
+        max-width: 1013px;
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 3.5rem;
+        line-height: 43.2px;
+        color: black;
+    }
+
+    .button__container button a {
+        font-family: 'Press Start 2P', cursive;
+        font-style: none;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+}
+
+
+
+/* Background bug */
+
+@media only screen and (min-width: 800px) {
+    #home {
+        background-image: url('../../img/home/index-background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    } 
+
+
+
+}
+
