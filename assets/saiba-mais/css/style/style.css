@@ -1,6 +1,9 @@
 body b {
     font-weight: bold;
 }
+body{
+    background: #F9F9F9;
+}
 
 /* coloca visibility hidden, pra poder utilizar pelo scrool reveals */
 

@@ -23,9 +23,8 @@
         border-radius: 25px;
     }
     .item-vantagens > img{
-        width: 100%;
-        max-width: 200px;
-        max-height: 200px;
+        width: 130px;
+        height: 130px;
     }
     
     .flex-vantagens{
@@ -34,6 +33,7 @@
         align-items: center;
         flex-direction: column;
         gap: 2em;
+
     }
 
     .item-vantagens p{
@@ -91,6 +91,8 @@
         width: 20%;
         border: solid 6px black;
         transition: 1s;
+        background: #fff;
+
     }
     .item-vantagens:hover {
         transform: scale(1.05);
