@@ -1,0 +1,232 @@
+body{
+    background-color: #BBD4C9;
+}
+
+.subtitulo-inicial{
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+.titulo-inicial{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px ;
+    color: #FEC83C;
+}
+
+.inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0;
+    gap: 1em;
+}
+
+.inicial > img{
+    width: 50%;
+    max-width: 330px;
+}
+
+
+.recomendacao{
+    width: 60%;
+    padding: 5em 0;
+    text-align: center;
+}
+
+.recomendacao > p > strong{
+    color: #145917;
+}
+
+.recomendacao > p{
+    font-size: 18px;
+}
+
+.flex-recomendacao{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.imagem-recomendacao{
+    margin-bottom: 3em;
+    margin-right: -10em;
+}
+
+
+.flex-recomendacao > p{
+    font-size: 18px;
+}
+
+.coluna-pequena{
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em auto;
+    font-size: 16px;
+    text-align: center;
+    gap: 2em;
+    margin-bottom: 5em;
+}
+
+.coluna-pequena >p > strong{
+    color: #4E948E;
+}
+
+.botao-recomendacao{
+    background-color: #F6B43A;
+    padding: 1em 2.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+h2{
+    margin: 2em 0;
+    font-size: 24px;
+}
+
+.gold-chest{
+    gap: 3em;
+    margin: 2em 0;
+}
+
+.gold-chest > img{
+    width: 100%;
+    max-width: 220px;
+}
+
+.imagem-recomendacao-central{
+    margin: 2em 0;
+}
+
+#como-investir{
+    background-color: #FFF5DA;
+    padding: 3em 0;
+}
+
+.como-investir{
+    width: 60%;
+}
+
+.como-investir > h2{
+    color:#184431;
+}
+
+.flex-como-investir > h3{
+    color:#F29E03;
+}
+
+.flex-como-investir > p{
+    font-size: 18px;
+} 
+
+.flex-como-investir{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.flex-como-investir > h3::first-letter{
+    font-family: 'Press Start 2P', cursive;
+}
+
+#simulador{
+    background-color: #437A62;
+}
+
+.simulador{
+    width: 40%;
+    padding: 2em 0;
+    color: #FFF4D8;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.simulador > h2{
+    color: #FFF4D8;
+}
+
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.input-numero{
+    padding: 1em 0;
+    background-color: #D0E4C3;
+    border-radius: 18px;
+    border: none;
+}
+
+.input-submit{
+    width: 165px;
+    margin: 1em auto;
+    background-color: #F29E03;
+    color: white;
+    padding: 1em 0;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .titulo-inicial{
+        font-size: 32px;
+    }
+
+    .subtitulo-inicial{
+        font-size: 18px;
+    }
+  
+    .flex-recomendacao{
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .imagem-recomendacao{
+        margin: 2em 0;
+    }
+
+    .recomendacao{
+        width: 90%;
+    }
+
+    .coluna-pequena{
+        width: 80%;
+        margin: 2em auto;
+    }
+
+    .como-investir{
+        width: 90%;
+    }
+
+    .como-investir > h3{
+        text-align:center;
+    }
+
+    .flex-como-investir{
+        gap: 3em;
+    }
+
+    .simulador{
+        width: 90%;
+    }
+}   
+
+/*Tira as setas do input number, Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
