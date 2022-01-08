@@ -1,6 +1,7 @@
 <div align="center">
-
-![logo do projeto](https://github.com/anaahnb/game-invest/blob/main/assets/index/logo.png)
+  
+  ![logo do projeto](https://github.com/anaahnb/game-invest/blob/main/assets/index/img/header/logo.svg)
+   
   <p>Projeto desenvolvido para incentivar jovens a investir</p>
 
   [![GitHub contributors](https://img.shields.io/github/contributors/anaahnb/game-invest.svg)](https://GitHub.com/anaahnb/game-invest/contributors/)
