@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Saiba Mais</title>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Inter:wght@300;400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&display=swap" rel="stylesheet" />
@@ -21,9 +24,9 @@
           <img src="./assets/saiba-mais/img/header/logo.svg" />
           <nav class="header__nav">
             <ul class="nav-ul" id="nav-bar">
-              <li><a href="#Descrição" class="nav-li">Descrição</a></li>
+              <li><a href="#comecar" class="nav-li">Descrição</a></li>
               <li><a href="#Vantagens" class="nav-li">Vantagens</a></li>
-              <li><a href="#meios-investimento" class="nav-li">Meios de Investimento</a></li>
+              <li><a href="#Meios-de-investimento" class="nav-li">Meios de Investimento</a></li>
             </ul>
           </nav>
           <button onclick="navbar()"  class="header__Botao__Burguer" type="button" data-toggle="collapse">
@@ -58,9 +61,10 @@
         <div class="container__começar">
           <div class="content__comecar__titulo">
             <img src="./assets/saiba-mais/img/grafico-antes-de-começar.svg" alt="Grafico">
-              <h2>Antes de Começar....</h2>
+              <h2 class="comecar__titulo__inicio">Antes de Começar....</h2>
           </div>
           <div class="content__comecar__paragrafos">
+            <h2 class="comecar__titulo__fim">Antes de Começar....</h2>
             <p>Antes de começar a investir pense primeiro no <strong>objetivo</strong> com tal investimento. Tenha uma meta e trace a melhor 
               estratégia para alcança-la. Sabendo onde se quer chegar, fica mais fácil escolher o investimento adequado ao 
               seu propósito – onde, quando e por quanto tempo investir.</p>
@@ -81,7 +85,7 @@
                 <div class = 'item-vantagens'>
                     <img src = 'assets/saiba-mais/img/vantagens-de-investir/bag.svg' alt = ''>
                     <p>
-                      <strong>Segurança</strong> <br/>
+                      <strong> Segurança </strong> <br/>
                       Investir pode lhe garantir estabilidade e uma reserva financeira  em tempos de crise.
                     </p>
                 </div>
@@ -141,7 +145,7 @@
      <!-- Perfil do ivestidor -->
 
     <!-- Seção Principais Meios de Investimento -->
-<section class="principaisMeiosdeInvestimento">
+<section class="principaisMeiosdeInvestimento" id="Meios-de-investimento">
     <h2 class="principaisMeiosdeInvestimento_titulo">Principais Meios de Investimento</h2>
     <!-- Renda Fixa -->
     <h3 class="rendaFixa_titulo">Renda Fixa</h3>
