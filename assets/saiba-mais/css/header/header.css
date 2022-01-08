@@ -5,7 +5,7 @@
         box-sizing: border-box;
     }
     .main-header{
-        height: 30px;
+        height: 50px;
         background-color: #020202;
         color: white;
         display: flex;
@@ -13,7 +13,8 @@
     }
     .header-main > img{
         width: 115px;
-        height: 19.81px;
+        height: 40px;
+        padding-left: 1rem;
     }
 
     .header-main{
@@ -39,6 +40,7 @@
         background-color: #020202;
         position: absolute;
         right: 0;
+        padding: 1rem;
     }
 
     .header__Botao__Burguer img{

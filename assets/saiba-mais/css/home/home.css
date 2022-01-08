@@ -7,7 +7,6 @@
     }
     
     .home{
-        width: 100vw;
         height: 300px;
         padding: 2em 0;
         display: flex;
@@ -39,7 +38,7 @@
         font-weight: normal;
         font-size: 1rem;
         line-height: 23.04px;
-        color: #087207;
+        color: #fff;
         text-align: start;
         width: 218px;
         height: 78px;
@@ -85,6 +84,8 @@
     .paragrafo-home{
         font-size: 14px;
         line-height: 21px;
+
+        
     }
 }
 
@@ -92,12 +93,11 @@
 
 @media only screen and (min-width: 1024px) {
     .home{
-        width: 100vw;
         height: 733px;
     }
     .texto-home > img{
         width: 433px;
-        height: 436px;
+        height: 436px; 
     }
     .texto-home{
         width: 100%;
@@ -117,7 +117,6 @@
     .paragrafo-home{
         font-size: 25px;
         line-height: 37.5px;
-
-
+        padding-left: 22px;
     }
 }
