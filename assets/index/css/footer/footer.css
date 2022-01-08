@@ -2,6 +2,7 @@
 @media screen and (min-width: 0) {
     .main-footer{
         background-color: black;
+        overflow-x: hidden;
     }
 
     .listras{
