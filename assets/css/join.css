@@ -26,8 +26,8 @@
 /* RPG */
 @import url("./rpg/saiba-mais-rpg.css");
 
+
+@import url("./perfil-investidor/home.css");    
+
 /* footer */
 @import url("./footer/footer.css");
-
-
-@import url("./perfil-investidor/home.css");
