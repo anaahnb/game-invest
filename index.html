@@ -23,10 +23,10 @@
       <img src="./assets/index/img/header/logo.svg" />
       <nav class="header__nav">
         <ul class="nav-ul" id="nav-bar">
-          <li><a href="#Descrição" class="nav-li">Descrição</a></li>
+          <li><a href="#home" class="nav-li">Descrição</a></li>
           <li><a href="#Vantagens" class="nav-li">Vantagens</a></li>
           <li><a href="#meios-investimento" class="nav-li">Meios de Investimento</a></li>
-          <li class="botaoJogar"><a href="#">Jogar</a></li>
+          <!-- <li class="botaoJogar"><a href="#">Jogar</a></li> -->
         </ul>
       </nav>
       <button onclick="navbar()" class="header__Botao__Burguer" type="button" data-toggle="collapse">
@@ -48,7 +48,7 @@
           adquira um conhecimento básico para começar a investir de forma segura e condizente com você e seus objetivos.
         </p>
         <div class="button__container">
-          <button><a class="button__index__jogar" href="#">Jogar</a></button>
+          <button><a class="button__index__jogar" href="phaser/index.html">Jogar</a></button>
           <button id="saber"><a class="button__index__saber" href="saiba-mais.html">Saber mais</a></button>
         </div>
       </div>
@@ -62,13 +62,13 @@
     <div class="container_explicação_do_RPG">
       <div class="textoRpg1">
         <div class="texto1">
-          <p class="explicandoTexto">O nosso projeto foi criado com a proposta de dar aos jovens que nunca investiram <b>os primeiros passos</b> para
+          <p class="explicandoTexto" data-anime="right">O nosso projeto foi criado com a proposta de dar aos jovens que nunca investiram <b>os primeiros passos</b> para
             entrar no mundo do mercado financeiro e também entender a importância de tal feito.</p>
         </div>
-          <div class="texto2" <p>Começar a investir pode ser uma motivação tanto para aquele que está endividado, mas
+          <div class="texto2" 
+            <p data-anime="right">Começar a investir pode ser uma motivação tanto para aquele que está endividado, mas
             buscando fazer um controle financeiro, como para aquele que já consegue guardar algum dinheiro, mas não 
             sabe como faze-lo render.</p>
-            </div>
           </div>
       </div>
   </section>
@@ -76,24 +76,25 @@
 
   <!-- Vantagens de Investir -->
   <section id='Vantagens' alt='Seção Vantagens'>
-    <h2>Conheça as vantagens de investir</h2>
+    <h2 data-anime="left">Conheça as vantagens de investir</h2>
+    
     <div class='container descricao'>
       <div class='flex-vantagens'>
-        <div class='item-vantagens'>
+        <div class='item-vantagens' data-anime="left">
           <img src='assets/index/img/vantagens-de-investir/bag.svg' alt=''>
           <p><strong>Segurança</strong> <br /></p>
           <p> Investir garante estabilidade e uma reserva financeira em tempos de crise. </p>
         </div>
-        <div class='item-vantagens'>
+        <div class='item-vantagens' data-anime="fade">
           <img src='assets/index/img/vantagens-de-investir/heart.svg'>
           <p>
             <!-- <strong> Qualidade de vida </strong> <br /> -->
             Mais liberdade e possibilidades de realizar suas metas e sonhos, como ter dinheiro para fazer aquela viagem!
           </p>
         </div>
-        <div class='item-vantagens'>
+        <div class='item-vantagens' data-anime="right">
           <img src='assets/index/img/vantagens-de-investir/moedas.svg'>
-          <p><strong> Acumular Patrimônio </strong> </p>
+          <p><strong> Acumular Patrimônio </strong>
           <p> Fazer o dinheiro trabalhar pra você é uma ótima forma de multiplicar seu capital. </p>
         </div>
       </div>
@@ -114,23 +115,23 @@
       <div class='flex-footer'>
         <div class='item-footer'>
           <h4>Time Dados</h4>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Clebson Machado</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Luiz Felipe</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Railson Douglas</a>
+          <a href="" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Clebson Machado</a>
+          <a href="https://www.linkedin.com/in/felipeecp/" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Luiz Felipe</a>
+          <a href="https://www.linkedin.com/in/railsondoglas" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Railson Douglas</a>
         </div>
         <div class='item-footer'>
           <h4>Time Design</h4>
           <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Ayla Andrade</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Elda Ramos</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Maysa Mafra</a>
+          <a href="" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Elda Ramos</a>
+          <a href="https://www.linkedin.com/in/maysa-mafra-7a33bb146" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Maysa Mafra</a>
         </div>
         <div class='item-footer'>
           <h4>Time Programação</h4>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Ana Júlia Alencar</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Igor Lima</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>João Guilherme </a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Kelvyn Reis</a>
-          <a href=# class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Melissa Palhano</a>
+          <a href="https://www.linkedin.com/in/ana-j%C3%BAlia-alencar/" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Ana Júlia Alencar</a>
+          <a href="https://www.linkedin.com/in/igor-lima-pereira-577872186" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Igor Lima</a>
+          <a href="https://www.linkedin.com/in/joao-guilherme-garcia-castro" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>João Guilherme </a>
+          <a href="https://www.linkedin.com/in/kelvynreis/" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Kelvyn Reis</a>
+          <a href="https://www.linkedin.com/in/melpalhano/" class='link-footer'><img src='assets/index/img/footer/linkedin.svg'>Melissa Palhano</a>
         </div>
       </div>
       <p class="copyright">

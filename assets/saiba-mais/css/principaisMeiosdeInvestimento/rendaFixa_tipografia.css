@@ -12,10 +12,9 @@
 
     .rendaFixa_descricao {
         font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
+        font-size: 13px;
         text-align: justify;
         margin: 0.5rem;
-        font-weight: 500;
 
     }
     .rendaFixa__subtituloCDB{

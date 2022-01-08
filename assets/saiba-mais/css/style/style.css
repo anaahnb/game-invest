@@ -22,3 +22,7 @@ body{
 .perfil__{
     visibility: hidden;
 }
+
+* {
+    line-height: 115%;
+}

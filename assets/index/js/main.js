@@ -1,4 +1,4 @@
-//Codigo javascript pra navegação
+// Codigo javascript pra navegação
 const button = document.getElementById('saber')
 
 button.addEventListener('click', () =>{
@@ -15,3 +15,6 @@ function navbar (){
         }
   
   }
+
+// Animar ao scroll
+

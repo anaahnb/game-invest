@@ -15,7 +15,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0px 20px 20px 20px;
+        padding: 40px 20px 20px 20px;
     }
     .comecar__titulo__inicio, .comecar__titulo__fim{
         margin: 0;
@@ -35,7 +35,7 @@
         height: 106px;
     }
     
-    .content__comecar__paragrafos{
+    .content__comecar__paragrafos {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -50,9 +50,9 @@
     .content__comecar__paragrafos p{
         text-align: justify;
         line-height: 20px;
-        font-size: 0.8em;
+        font-size: 13px;
         font-weight: 400;
-        font-family: var(--montSerrat);
+        font-family: var(--poppins);
         font-style: normal;
         color: var(----preto);
     }
@@ -112,7 +112,7 @@
     }
 
     .content__comecar__paragrafos p{
-        font-size: 1.2em;
+        font-size: 18px;
         line-height: 30px;
         margin: 0px;
         text-align: start;
