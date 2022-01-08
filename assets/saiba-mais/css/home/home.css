@@ -7,7 +7,6 @@
     }
     
     .home{
-        width: 100vw;
         height: 300px;
         padding: 2em 0;
         display: flex;
@@ -94,7 +93,6 @@
 
 @media only screen and (min-width: 1024px) {
     .home{
-        width: 100vw;
         height: 733px;
     }
     .texto-home > img{
