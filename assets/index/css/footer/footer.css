@@ -1,0 +1,264 @@
+/* Celular */
+@media screen and (min-width: 0) {
+    .main-footer{
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    .listras{
+        gap: 4em;
+        width: 200%;
+    }
+
+    .footer{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+
+    }
+
+    .flex-footer{
+        font-family: 'Poppins', sans-serif;
+        justify-content: space-around;
+        max-width: 900px;
+        gap: 4em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .item-footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 150px;
+    }
+    .item-footer a{
+        font-family: 'Poppins', sans-serif;
+
+
+    } 
+
+    .item-footer > h4{
+        font-family: 'Press Start 2P', cursive;
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+    }
+
+    .link-footer{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .copyright{
+        margin-bottom: 2em;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .titulo-footer {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 12px;
+        margin: 0rem 5rem;
+    }
+    .logo{
+        height:90px;
+        width:150px;
+    }
+
+}
+    
+
+
+
+/* Tablet */
+@media screen and (min-width: 744px) {
+    
+    .main-footer{
+        background-color: black;
+    }
+
+    .listras{
+        width: 100%;
+    }
+
+    .footer{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        margin-top: 2em;
+    }
+
+    .flex-footer{
+        font-family: 'Poppins', sans-serif;
+        justify-content: space-around;
+        max-width: 900px;
+        gap: 4em;
+        flex-wrap: wrap;
+    }
+
+    .item-footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 150px;
+    }
+    .item-footer a{
+        font-family: 'Poppins', sans-serif;
+
+
+    } 
+
+    .item-footer > h4{
+        font-family: 'Press Start 2P', cursive;
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 1rem;
+
+    }
+
+    .link-footer{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .copyright{
+        margin-bottom: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+
+    }
+
+    .titulo-footer {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+    }
+
+    .logo{
+        height:110px;
+        width:220px;
+    
+    }
+
+}
+    
+    
+
+
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+   
+
+    .main-footer{
+        background-color: black;
+    }
+
+    .listras{
+        width: 100%;
+    }
+
+    .footer{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        margin-top: 2em;
+    }
+
+    .flex-footer{
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        max-width: 900px;
+        gap: 4em;
+        flex-wrap: wrap;
+    }
+
+    .item-footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 150px;
+        gap: 1em;
+    }
+    .item-footer a{
+        font-family: 'Poppins', sans-serif;
+
+
+    } 
+
+    .item-footer > h4{
+        font-family: 'Press Start 2P', cursive;
+        margin: 0;
+        font-size: 14px;
+
+    }
+
+    .link-footer{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .copyright{
+        margin-bottom: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+
+    }
+
+    .titulo-footer {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+
+    .logo{
+            height:80px;
+            width:200px;
+        
+        }
+
+
+
+}
+/* 
+
+@media only screen and (max-width: 1310px) {
+    .item-footer{
+        flex-wrap: nowrap;
+    }
+  }
+
+
+  @media only screen and (max-width: 510px) {
+    .footer{
+        gap: 5em;
+    }
+
+    .flex-footer{
+        justify-content: center;
+    }
+  } */

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #6FB272;
+    line-height: 144%;
+}
+
+#icon-question {
+    background-image: url(question.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 72px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 30px 10px;
+}
+
+
+#quiz {
+    display:none;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.button {
+    border-radius:6px;
+    width: 60px;
+    padding: 5px;
+    position: relative;
+    float: right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width: 322px;
+    height: 420px;
+    margin: auto;
+    padding: 0 25px 40px 10px;
+    border-radius: 23px;
+    background-color: white;
+    color: black;
+    box-shadow: 4px 4px 4px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 17px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}

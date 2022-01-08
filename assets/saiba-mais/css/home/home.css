@@ -1,0 +1,122 @@
+@media only screen and (min-width: 0px){
+    #home{
+        background-image: url('../../img/home/background-home.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    
+    .home{
+        height: 300px;
+        padding: 2em 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    
+    .texto-home > img{
+        width: 136px;
+        height: 130px;
+    }
+    
+    
+    .texto-home{
+        display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0 30px;
+    }
+    
+    .titulo-home{
+        font-family: var(--press);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 23.04px;
+        color: #fff;
+        text-align: start;
+        width: 218px;
+        height: 78px;
+    }
+
+    .conteiner__home__paragrafo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+    }
+    
+    .paragrafo-home{
+        font-family: var(--poppins);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #D3FFD2;
+        text-align: initial;
+    }
+    
+}
+
+@media only screen and (min-width: 744px){
+    .home{
+        width: 100%;
+    }
+    .texto-home{
+        width: auto;
+    }
+    .texto-home > img{
+        width: 136.04px;
+        height: 132.73px;
+    }
+
+    .titulo-home{
+        width: 52%;
+        font-size: 18px;
+        line-height: 25.92px;
+    }
+    .paragrafo-home{
+        font-size: 14px;
+        line-height: 21px;
+
+        
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .home{
+        height: 733px;
+    }
+    .texto-home > img{
+        width: 433px;
+        height: 436px; 
+    }
+    .texto-home{
+        width: 100%;
+        justify-content: space-around;
+        padding: 0 100px;    
+    }
+    .titulo-home{
+        font-size: 43px;
+        line-height: 61.92px;
+    }
+    .conteiner__home__paragrafo{
+        justify-content: start;
+        padding: 0 0 0 110px;
+
+        margin-top: -50px;
+    }
+    .paragrafo-home{
+        font-size: 25px;
+        line-height: 37.5px;
+        padding-left: 22px;
+    }
+}

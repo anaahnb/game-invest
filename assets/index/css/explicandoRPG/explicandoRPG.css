@@ -1,0 +1,82 @@
+/* Celular */
+@media screen and (min-width: 0) {
+    .explicandoRPG {
+        padding: 2rem;
+    }
+
+    .container_explicação_do_RPG {
+        margin: 0;
+    }
+
+    .textoRpg1 {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0.4rem 2rem;
+        text-align: justify;
+    }
+
+    .flex-vantagens{
+        padding-bottom: 3rem;
+    }
+
+
+}
+
+/* Tablet */
+@media screen and (min-width: 744px) {
+    .explicandoRPG {
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .container_explicação_do_RPG {
+        margin: 0;
+    }
+
+    .textoRpg1 {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 35px;
+        padding: 1rem 8rem;
+        text-align: justify;
+    }
+
+    .texto2 {
+
+        padding-top: 2rem;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .explicandoRPG {
+        padding: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    .container_explicação_do_RPG {
+        margin: 0;
+    }
+
+    .textoRpg1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        padding: 2rem 15rem;
+        text-align: justify;
+        margin: 1rem;
+    }
+
+    .texto2 {
+        padding-top: 2rem;
+    }
+}
