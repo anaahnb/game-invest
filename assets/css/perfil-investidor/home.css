@@ -1,6 +1,24 @@
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
 body{
     background-color: #BBD4C9;
+    font-family: 'Inter', sans-serif;
 }
+
+.nav-ul{
+    display: flex;
+    gap: 2em;
+}
+
+.nav-li{
+    color:white;
+    text-decoration: none;
+}
+
 
 .subtitulo-inicial{
     margin: 0 auto;
