@@ -23,7 +23,7 @@
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Phaser](https://phaser.io/)
-- [Java Script](https://www.javascript.com/)
+- [JavaScript](https://www.javascript.com/)
 - [Python](https://www.python.org/)
 
 
