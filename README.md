@@ -12,3 +12,18 @@
 <div align="justify">
   No <a href= https://www.inova.ma.gov.br/trilhas> <b>Programa Trilhas</b> </a> recebemos o desafio de desenvolver um projeto realacionado ao mercado financeiro.  Dessa forma, através de pesquisas, decidimos abordar a seguintes temática: <b>Jovens e o mundo do mercado financeiro</b>. De uma maneira divertida e gameficada, o principal objetivo é incentivar e ajudar esse público a dar os primeiro passos para investir.
 </div>
+
+### 🛠 Features
+
+- [ ] Implementar API de rendimento
+- [ ] Seção sobre meios de investimentos
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Phaser](https://phaser.io/)
+- [Java Script](https://www.javascript.com/)
+- [Python](https://www.python.org/)
+
+
