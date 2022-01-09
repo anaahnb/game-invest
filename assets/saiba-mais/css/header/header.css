@@ -11,7 +11,8 @@
         display: flex;
         justify-content: space-between;
     }
-    .header-main > img{
+    
+    #logo {
         width: 115px;
         height: 40px;
         padding-left: 1rem;
@@ -53,7 +54,7 @@
         color: white;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 13px;
         display: block;
     }
 
@@ -83,7 +84,7 @@
         height: 70.45px;
     }
 
-    .header-main > img{
+    #logo {
         width: 175px;
         height: 53.171px;
     }
