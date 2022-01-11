@@ -2,90 +2,178 @@
 
 body {
     background-color: #6FB272;
-    line-height: 144%;
 }
 
-#icon-question {
-    background-image: url(question.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        height: 72px;
+@media only screen and (min-width: 0px) {
+    
+    #container {
+        width: 622px;
+        height: 920px;
+        margin: 180px auto;
+        padding: 10px 25px 40px 10px;
+        border-radius: 23px;
+        background-color: white;
+        color: black;
+        box-shadow: 4px 4px 4px #888;
+    }
+
+    #icon-question {
+        background-image: url(question.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            height: 100px;
+            margin: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 30px;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin: 30px 10px 40px 10px;
+    }
+
+    li {
+        margin: 40px;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        line-height: 150%;
+    }
+    
+    input[type="radio" i] {
+        margin: 3px 20px 0px 5px;
+    }
+
+    #quiz {
+        display: none;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .button {
+        border-radius: 10px;
+        width: 60px;
+        padding: 15px;
+        position: relative;
+        float: right;
+        background-color: #DCDCDC;
+        margin-right: 2px;
+    
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    button {
+        position: relative;
+        float: right;
+    }
+    
+    .button a {
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .button.active {
+        background-color: #F8F8FF;
+        color: #525252;
+    }
+
+    #prev {
+        display:none;
+    }
+    
+    #start {
+        display:none;
+        width: 90px;
+    }
+
 }
 
-p {
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 30px 10px;
+@media only screen and (min-width: 744px){
+    #container {
+        width: 422px;
+        height: 645px;
+        margin: 20px auto;
+
+    }
+
+    #icon-question {
+        height: 80px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 17px;
+        margin: 20px 10px 30px 10px;
+    }
+
+    li {
+        margin: 40px;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    .button {
+        border-radius: 10px;
+        width: 45px;
+        padding: 10px;
+    }
+
+    .button a {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    #container {
+        width: 322px;
+        height: 510px;
+        margin: 50px auto;
+        padding: 10px 25px 40px 10px;
+    }
+
+    #icon-question {
+        height: 60px;
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 14px;
+        margin: 10px 10px 30px 10px;
+    }
+
+    li {
+        margin: 30px;
+        font-size: 15px;
+
+    }
+
+    .button {
+        border-radius: 6px;
+        width: 30px;
+        padding: 8px;
+
+    }
+
+    .button a {
+        font-size: 15px;
+    }
+
 }
 
 
-#quiz {
-    display:none;
-    display: flex;
-    flex-direction: column-reverse;
-}
 
-.button {
-    border-radius:6px;
-    width: 60px;
-    padding: 5px;
-    position: relative;
-    float: right;
-    background-color: #DCDCDC;
-    color: black;
-    margin: 0 2px 0 2px;
-
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-}
-
-.button.active {
-    background-color: #F8F8FF;
-    color: #525252;
-}
-
-button {
-    position: relative;
-    float:right;
-}
-
-.button a {
-    text-decoration: none;
-    color: black;
-}
-
-#container {
-    width: 322px;
-    height: 420px;
-    margin: auto;
-    padding: 0 25px 40px 10px;
-    border-radius: 23px;
-    background-color: white;
-    color: black;
-    box-shadow: 4px 4px 4px #888;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    margin: 17px;
-    text-align: justify;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-}
-
-#prev {
-    display:none;
-}
-
-#start {
-    display:none;
-    width: 90px;
-}

@@ -57,6 +57,10 @@
         font-weight: 500;
     }
 
+    .link-footer img {
+        margin-right: 7px;
+    }
+
     .copyright{
         margin-bottom: 2em;
         font-family: 'Poppins', sans-serif;

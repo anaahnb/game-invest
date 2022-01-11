@@ -16,28 +16,28 @@
   },
 
   {
-    question: "Sobre seu conhecimento no mercado financeiro, voce:",
-    choices: ["Não possui conhecimento sobre o mercado.",
-    "Conhece o básico e já entendo sobre os diferentes tipos de investimentos.",
-    "Tem formação direcionada ao mercado financeiro."]
+    question: "Sobre seu conhecimento no mercado financeiro:",
+    choices: ["Não possuo conhecimento sobre o mercado.",
+    "Conheço o básico e já entendo sobre os diferentes tipos de investimentos.",
+    "Tenho formação direcionada ao mercado financeiro."]
   },
 
   {
-    question: "Alguma vez, voce ja investiu?",
+    question: "Alguma vez, ja investiu?",
     choices: ["Não, nunca investi.",
     "Já investi em renda fixa, como tesouro direto, CDB, poupança e entre outros.",
     "Sim, em renda variável, como ações, cambio, criptomoedas e entre outros."]
   },
 
   {
-    question: "Qual valor você tem para investir?",
+    question: "Qual valor voce tem para investir?",
     choices: ["Não possuo muito para investir agora.",
     "Até 10 mil.",
     "Acima de 10 mil."]
   },
 
   {
-    question: "Atualmente, voce acompanha as variaçoes do mercado de investimento?",
+    question: "Acompanha as variaçoes do mercado de investimento?",
     choices: ["Não vejo nada sobre.",
     "Somente informações sobre os quais (desejo) aplicar",
     "Acompanho tudo, pois eu tenho interesse em varias modalidades."]
@@ -113,7 +113,7 @@ function createQuestionElement(index) {
   // var header = $('<h2>Question ' + (index + 1) + ' :</h2>');
   // qElement.append(header);
   
-  var question = $('<p>').append(questions[index].question);
+  var question = $('<h1>').append(questions[index].question);
   qElement.append(question);
   
   var radioButtons = createRadios(index);
@@ -162,7 +162,7 @@ function displayNext() {
         $('#prev').hide();
         $('#next').show();
       }
-    }else {
+    } else {
       var scoreElem = displayScore();
       quiz.append(scoreElem).fadeIn();
       $('#next').hide();
@@ -180,14 +180,19 @@ function displayScore() {
 
   if (selection < 3) {
     resultado = 'conservador'
+    window.location.replace("../perfil-conservador.html");
+
   } else if ( selection < 7) {
-    resultado = 'moderado'
+    resultado = 'moderado';
+    score.append('Seu perfil é ' + resultado + ' !');
+    return score;
+
   } else if (selection >= 7) { 
-    resultado = 'agressivo'
+    resultado = 'agressivo';
+    score.append('Seu perfil é ' + resultado + ' !');
+    return score;
   }
 
   console.log(selection)
-  score.append('Seu perfil é ' + resultado + ' !');
-  return score;
 }
 })();
