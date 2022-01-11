@@ -15,7 +15,7 @@
 
 ### 🛠 Features
 
-- [ ] Implementar API de rendimento
+- [x] Implementar API de rendimento
 - [ ] Seção sobre meios de investimentos
 
 ### 🛠 Tecnologias
