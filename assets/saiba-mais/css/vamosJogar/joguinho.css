@@ -141,7 +141,6 @@
                 padding: 1rem 0rem 2rem;
                 font-size: 20px;
                 line-height: 30px;
-                margin: 0 105px;
 
         }
 
@@ -159,11 +158,11 @@
 
         .botao a {
                 font-family: var(--press);
-                font-size: 16px;
+                font-size: 14px;
                 text-decoration: none;
                 background-color: #F6B43A;
                 color: #ffffff;
-                padding: 17px 27px;
+                padding: 15px 20px;
                 border-radius: 20px;
                 border: none;
                 margin: 20px;

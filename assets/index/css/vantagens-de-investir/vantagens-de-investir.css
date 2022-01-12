@@ -16,7 +16,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: solid 2px #D0E4C3;
+        border: solid 2px #213B22;
         padding: 1em;
         text-align: center;
         border-radius: 25px;
@@ -46,14 +46,15 @@
 
     .item-vantagens p {
         margin: 10px 0;
-        font-family: 'Poppins';
+        font-family: 'Poppins', sans-serif;
         font-size: 13px;
+        color: #29302D;
     }
 
     .item-vantagens-subtitulo {
-        font-family: "Poppins", ;
+        font-family: 'Poppins', sans-serif;
         font-size: 12px;
-        color: black;
+        color: #29302D;
     }
 }
 
@@ -87,8 +88,9 @@
     }
 
     .item-vantagens p {
-        font-family: 'Poppins';
+        font-family: 'Poppins', sans-serif;
         font-size: 1.1rem;
+        color: #29302D;
 
 
     }
@@ -112,6 +114,10 @@
         height: 25rem;
     }
 
+    .item-vantagens:nth-child(2) p {
+        max-width: 170px;
+    }
+
     .item-vantagens:nth-child(3) {
         margin-bottom: 0px;
     }
@@ -131,8 +137,9 @@
 
     .item-vantagens p {
         margin-top: 1rem;
-        font-family: 'Poppins';
+        font-family: 'Poppins', sans-serif;
         font-size: 16px;
+        color: #29302D;
 
 
     }

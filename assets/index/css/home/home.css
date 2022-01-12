@@ -15,7 +15,7 @@
         padding: 2em 0;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
         flex-direction: column;
         
     }
@@ -39,7 +39,7 @@
         margin: 0;
         font-size: 15px;
         line-height: 30px;
-        /* max-width: 597px; */
+        max-width: 50rem;
         color: #fff;
         text-align: left;
     }
@@ -322,23 +322,23 @@
         padding: 15rem 0rem 0rem 0rem;
         margin: 0rem;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         flex-wrap: wrap;
         align-items: center;
     }
 
     .home_texto {
         font-weight: 600;
-        padding-left: 11rem;
+        padding-left: 7rem;
     }
 
     .home_titulo {
         text-align: left;
         font-family: 'Press Start 2P', cursive;
         margin: 0;
-        font-size: 2rem;
+        font-size: 30px;
         line-height: 52px;
-        max-width: 100rem;
+        max-width: 726px;
         color: #fff;
     }
 
@@ -347,11 +347,9 @@
         font-weight: 500;
         color: #fff;
         line-height: 35px;
-        font-size: 16px;
+        font-size: 20px;
         margin: 12px 0 18px 0;
-        max-width: 50rem;
-        font-size: 1.2rem;
-    }
+        max-width: 726px;    }
 
     .homePage_botoes {
         max-width: 355px;

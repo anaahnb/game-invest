@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 .container{
     width: 90%;
@@ -6,7 +7,7 @@
 
 body{
     background-color: #BBD4C9;
-    font-family: 'Inter', sans-serif;
+    
 }
 
 .nav-ul{
@@ -17,13 +18,14 @@ body{
 .nav-li{
     color:white;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 .subtitulo-inicial{
     margin: 0 auto;
     font-size: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: black;
     font-weight: 300;
 }
@@ -66,6 +68,7 @@ body{
     display: flex;
     align-items: center;
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
 }
 
 .imagem-recomendacao{
@@ -76,6 +79,7 @@ body{
 
 .flex-recomendacao > p{
     font-size: 18px;
+    line-height: 144%;
 }
 
 .coluna-pequena{
@@ -91,10 +95,13 @@ body{
 
 .coluna-pequena >p > strong{
     color: #4E948E;
+    font-weight: bold;
 }
 
 .botao-recomendacao{
     background-color: #F6B43A;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
     padding: 1em 2.5em;
     font-weight: bold;
     color: #ffffff;

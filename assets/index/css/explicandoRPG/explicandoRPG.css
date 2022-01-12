@@ -10,7 +10,7 @@
 
     .textoRpg1 {
         font-family: 'Poppins', sans-serif;
-        color: #fff;
+        color: #29302D;
         font-weight: 500;
         font-size: 13px;
         line-height: 20px;
@@ -74,6 +74,7 @@
         padding: 2rem 15rem;
         text-align: justify;
         margin: 1rem;
+        color: #29302D;
     }
 
     .texto2 {
