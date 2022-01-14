@@ -56,6 +56,10 @@
         font-style: normal;
         color: var(----preto);
     }
+
+    .content__comecar__paragrafos strong{
+        font-weight: 700;
+    }
     .comecar__titulo__fim{
         display: none;
     }
@@ -68,8 +72,8 @@
     }
     .comecar__titulo__inicio, .comecar__titulo__fim{
         font-size: 1.5em;
-        text-align: center;
-        padding: 0;
+        /* text-align: center; */
+        padding: 0px 0px 0px 20px;
         align-self: center;
     }
 
