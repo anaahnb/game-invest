@@ -1,0 +1,24 @@
+body b {
+    font-weight: bold;
+}
+body{
+    background: #F9F9F9;
+}
+
+/* coloca visibility hidden, pra poder utilizar pelo scrool reveals */
+
+.texto-home, .paragrafo-home{
+    visibility: hidden;
+}
+
+.container__começar{
+    visibility: hidden;
+}
+
+.item-vantagens{
+    visibility: hidden;
+}
+
+.perfil__{
+    visibility: hidden;
+}

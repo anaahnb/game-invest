@@ -5,19 +5,26 @@
         box-sizing: border-box;
     }
     .main-header{
+<<<<<<< HEAD
         height: 30px;
         width: 100vw;
 
+=======
+        height: 50px;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
         background-color: #020202;
         color: white;
-
         display: flex;
         justify-content: space-between;
+<<<<<<< HEAD
         position: fixed;
+=======
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
     }
     .header-main > img{
         width: 115px;
-        height: 19.81px;
+        height: 40px;
+        padding-left: 1rem;
     }
 
     .header-main{
@@ -43,6 +50,10 @@
         background-color: #020202;
         position: absolute;
         right: 0;
+<<<<<<< HEAD
+=======
+        padding: 1rem;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
     }
 
     .header__Botao__Burguer img{

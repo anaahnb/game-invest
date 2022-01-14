@@ -1,4 +1,5 @@
 @media only screen and (min-width: 0px){
+<<<<<<< HEAD
     #Vantagens{
         margin-bottom: 5em;
     }
@@ -6,11 +7,19 @@
         margin: 0;
 
         font-size: 1em;
+=======
+    #Vantagens h2{
+        margin: 0;
+
+        font-size: 1rem;
+        font-weight: 400;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
         text-align: center;
         font-family: var(--press);
         color: #063305;
         margin-bottom: 32px;
     }
+<<<<<<< HEAD
 
     .item-vantagens{
         width: 40%;
@@ -18,6 +27,22 @@
         flex-direction: column;
         align-items: center;
         border: solid 2px black;
+=======
+    .flex-vantagens{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 2em;
+        overflow: auto;
+    }
+    .item-vantagens{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid 4px black;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
         height: 300px;
         padding: 1em;
         justify-content: center;
@@ -25,6 +50,7 @@
         border-radius: 25px;
     }
     .item-vantagens > img{
+<<<<<<< HEAD
         width: 100%;
         max-width: 200px;
         max-height: 200px;
@@ -57,6 +83,28 @@
         font-weight: 700;
         font-family: 'Roboto', sans-serif;
 
+=======
+        width: 130px;
+        height: 130px;
+        display: inline-block;
+    }
+    
+    
+    .item-vantagens p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1rem;
+        font-size: 0.9rem;
+
+        padding: 5px;
+    }
+    .item-vantagens strong{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2rem;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
     }
 }
 
@@ -77,6 +125,19 @@
         gap: 2em;
         padding: 50px;
     }
+<<<<<<< HEAD
+=======
+    .item-vantagens p{
+        line-height: 1rem;
+        font-size: 1rem;
+
+        padding: 5px;
+
+    }
+    .item-vantagens strong{
+        font-size: 1.2rem;
+    }
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
 }
 
 @media only screen and ( min-width: 1024px){
@@ -84,12 +145,26 @@
         font-size: 1.5em;
     }
     .item-vantagens{
+<<<<<<< HEAD
         width: 30%;
         height: 350px;
+=======
+        width: 15rem;
+        height: 20rem;;
+        border: solid 6px black;
+        transition: 1s;
+        background: #fff;
+
+    }
+    .item-vantagens:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 6px 8px rgba(200, 178, 216, 0.16);
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
     }
     .flex-vantagens{
         justify-content: center;
         flex-direction: row;
+<<<<<<< HEAD
         gap: 2em;
         padding: 50px;
     }
@@ -104,6 +179,21 @@
     .item-vantagens strong{
         font-size: 1.3em;
         
+=======
+        gap: 4em;
+        padding: 50px;
+    }
+    .item-vantagens p{
+        line-height: 1.2rem;
+        font-size: 1.2rem;
+    }
+    .item-vantagens strong{
+        font-size: 22px;
+    }
+
+    .item-vantagens:nth-child(2){
+        height: 337px;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
     }
 }
 

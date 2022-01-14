@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Estilo da Página */
 @import url("./style/style.css");
 @import url("./variaveis.css");
@@ -31,3 +32,44 @@
 
 /* footer */
 @import url("./footer/footer.css");
+=======
+/* Estilo e Configurações */
+@import url("style/reset.css");
+@import url("style/style.css");
+
+/* Estilo da Página */
+@import url("./style/style.css");
+@import url("./variaveis.css");
+
+/* Header */
+@import url("./header/header.css");
+
+/* comecar */
+@import url("./comecar/comecar.css");
+
+/* Home */
+@import url("./home/home.css");
+    
+/* Vantagens de Investir */
+@import url("./vantagens-de-investir/vantagens-de-investir.css");
+
+/* Perfil do Investidor */
+@import url("./perfil-do-investidor/perfil-do-investidor.css");
+
+
+/* Principais Meios de Investimento */
+@import url("./principaisMeiosdeInvestimento/principalMeiodeInvestimento.css");
+@import url("./principaisMeiosdeInvestimento/rendaFixa-cards.css");
+@import url("./principaisMeiosdeInvestimento/rendaFixa.css");
+@import url("./principaisMeiosdeInvestimento/rendaFixa_tipografia.css");
+@import url("./principaisMeiosdeInvestimento/rendaVariavel-cards.css");
+@import url("./principaisMeiosdeInvestimento/rendaVariavel.css");
+@import url("principaisMeiosdeInvestimento/rendaVariavel_tipografia.css");
+
+/* Joguinho */
+@import url("vamosJogar/joguinho.css");
+
+/* Footer */
+@import url("footer/footer.css");
+
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4

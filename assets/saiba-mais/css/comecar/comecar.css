@@ -1,6 +1,10 @@
 @media only screen and (min-width: 0px){
     .container__começar{
+<<<<<<< HEAD
         width: 100vw;
+=======
+        width: 100%;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
         margin: 0;
         padding: 30px 30px 0 30px;
     
@@ -17,7 +21,11 @@
         align-items: center;
         padding: 0px 20px 20px 20px;
     }
+<<<<<<< HEAD
     .content__comecar__titulo h2{
+=======
+    .comecar__titulo__inicio, .comecar__titulo__fim{
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
         margin: 0;
         padding: 30px 0 0 15px;
         font-size: 1em;
@@ -56,6 +64,16 @@
         font-style: normal;
         color: var(----preto);
     }
+<<<<<<< HEAD
+=======
+
+    .content__comecar__paragrafos strong{
+        font-weight: 700;
+    }
+    .comecar__titulo__fim{
+        display: none;
+    }
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
 }
 
 @media only screen and (min-width: 744px){
@@ -63,10 +81,17 @@
         justify-content: space-around;
         padding: 50px;
     }
+<<<<<<< HEAD
     .content__comecar__titulo h2{
         font-size: 1.5em;
         text-align: center;
         padding: 0;
+=======
+    .comecar__titulo__inicio, .comecar__titulo__fim{
+        font-size: 1.5em;
+        /* text-align: center; */
+        padding: 0px 0px 0px 20px;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
         align-self: center;
     }
 
@@ -83,6 +108,7 @@
 }
 
 @media only screen and (min-width: 1024px){
+<<<<<<< HEAD
     .content__comecar__titulo{
         width: 100%;
         flex-direction: column-reverse;
@@ -110,12 +136,54 @@
     .content__comecar__paragrafos{
         flex-direction: column;
         padding: 0px;
+=======
+    .container__começar{
+        flex-direction: row;
+        justify-content: center;
+
+        margin: 116px 0px;
+    }
+    .content__comecar__titulo{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+
+        width: 30%;
+        padding: 0px;
+    }
+    .content__comecar__titulo > img {
+        width: 22em;
+        height: 22em;
+    }
+
+    .content__comecar__paragrafos{
+        width: 40%;
+        flex-direction: column;
+        padding: 0px 50px;
+        gap: 3rem;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
     }
 
     .content__comecar__paragrafos p{
         font-size: 1.2em;
         line-height: 30px;
+<<<<<<< HEAD
         margin: 0px 50px;
+=======
+        margin: 0px;
+        text-align: start;
+    }
+
+    .comecar__titulo__fim{
+        display: block;
+        font-size: 1.6rem;
+        padding: 0px;
+        align-self: start;
+
+    }
+
+    .comecar__titulo__inicio{
+        display: none;
+>>>>>>> 2fbc9b05075a2ace398926893fe610e1c77bc3e4
     }
 
 }
