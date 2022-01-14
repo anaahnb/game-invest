@@ -9,7 +9,14 @@
         color: #063305;
         margin-bottom: 32px;
     }
-
+    .flex-vantagens{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 2em;
+        overflow: auto;
+    }
     .item-vantagens{
         width: 50%;
         display: flex;
@@ -25,17 +32,10 @@
     .item-vantagens > img{
         width: 130px;
         height: 130px;
+        display: inline-block;
     }
     
-    .flex-vantagens{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        gap: 2em;
-
-    }
-
+    
     .item-vantagens p{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -44,7 +44,6 @@
         font-size: 0.9rem;
 
         padding: 5px;
-
     }
     .item-vantagens strong{
         font-family: 'Roboto', sans-serif;
