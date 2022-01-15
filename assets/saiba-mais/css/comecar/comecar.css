@@ -28,7 +28,7 @@
 
         font-family: var(--press);
         font-weight: 400;
-        color: #063305;
+        color: #08755B;
     }
     .content__comecar__titulo > img{
         width: 76px;
@@ -54,7 +54,7 @@
         font-weight: 400;
         font-family: var(--poppins);
         font-style: normal;
-        color: var(----preto);
+        color: #29302D;
     }
     .comecar__titulo__fim{
         display: none;
@@ -100,12 +100,12 @@
         padding: 0px;
     }
     .content__comecar__titulo > img {
-        width: 22em;
-        height: 22em;
+        width: 338px;
+        height: 242px;
     }
 
     .content__comecar__paragrafos{
-        width: 40%;
+        max-width: 687px;
         flex-direction: column;
         padding: 0px 50px;
         gap: 3rem;

@@ -2,18 +2,19 @@
 
     .conteiner__perfil__investidor{
         width: 100%;
-        margin-top: 30px;
+        margin: 60px 0;
         padding: 0 30px;
     }
 
     .conteiner__perfil__investidor h2{
         font-size: 1em;
         font-family: var(--press);
-        color: #063305;
+        color: #08755B;
         margin: 0;
         text-align: center;
         list-style: none;
-        line-height: 20px;
+        line-height: 144%;
+        padding-bottom: 30px;
     }
 
     .paragrafo-investidor {
@@ -49,7 +50,7 @@
         font-family: 'Poppins' , sans-serif;
         font-weight: bold;
         font-size: 16px;
-        color: #2C9030;
+        color: #08755B;
         text-align: center;
         padding-top: 20px;
     }
@@ -123,14 +124,14 @@
 
 @media only screen and (min-width: 1024px){
     .conteiner__perfil__investidor h2{
-        font-size: 1.3em;
+        font-size: 1.3rem;
         margin-bottom: 30px;
     }
     .perfil__investidor__caixa{
         flex-direction: row;
         width: 100%;
-        padding: 20px 100px 0 100px;
-        gap: 1rem;
+        /* padding: 0px 100px 0 100px; */
+        gap: 2rem;
         
     }
     .perfil__{
@@ -144,26 +145,29 @@
     }
 
     .perfil__investidor__caixa h3{
-        margin-left: 27px;
         font-size: 1.2em;
         line-height: 144%;
     }
 
     .perfil__investidor__caixa p{
         font-family: 'Poppins', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 144%;
-        padding-top: 1em;
+        max-width: 574px;
+        /* padding-top: 1em; */
+        margin: 0;
+
     }
+
     .perfil__investidor__imagem__1{
-        width: 15rem;
-        height: 20rem;
+        width: 400px;
+        height: 400px;
         margin-bottom: -100px;
     }
 
     .perfil__investidor__imagem__2{
-        width: 202px;
-        height: 260px;
+        width: 290px;
+        height: 280px;
     }
 
     .perfil__troca{

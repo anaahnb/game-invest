@@ -1,10 +1,14 @@
 @media only screen and (min-width: 0px){
+    #Vantagens {
+        background-color: #EDF6F2;
+    }
+    
     #Vantagens h2{
         margin: 0;
         font-size: 1em;
         text-align: center;
         font-family: 'Press Start 2P', cursive;
-        color: #063305;
+        color: #08755B;
         padding: 2rem;
         line-height: 144%;
     }
@@ -16,7 +20,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: solid 2px #D0E4C3;
+        border: solid 2px #104C47;
         padding: 1em;
         text-align: center;
         border-radius: 25px;
@@ -53,7 +57,7 @@
     .item-vantagens-subtitulo {
         font-family: "Poppins", ;
         font-size: 12px;
-        color: black;
+        color: #29302D;
     }
 }
 
@@ -98,7 +102,7 @@
     #Vantagens h2 {
         font-size: 1.3em;
         font-family: 'Press Start 2P', cursive;
-        color: #063305;
+        color: #1C877E;
 
     }
 
@@ -127,6 +131,7 @@
         flex-direction: row;
         gap: 2em;
         margin-bottom: 120px;
+        padding: 0 0 50px;
     }
 
     .item-vantagens p {

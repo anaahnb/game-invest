@@ -1,8 +1,13 @@
 body b {
+    color: #08755B;
     font-weight: bold;
 }
 body{
     background: #F9F9F9;
+}
+
+strong {
+    font-weight: bold;
 }
 
 /* coloca visibility hidden, pra poder utilizar pelo scrool reveals */

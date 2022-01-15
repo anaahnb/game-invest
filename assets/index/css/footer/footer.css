@@ -206,6 +206,12 @@
         height: 150px;
         gap: 1em;
     }
+
+    .item-footer:nth-child(2) {
+        margin-top: 14px;
+        justify-content: flex-start;
+    }
+
     .item-footer a{
         font-family: 'Poppins', sans-serif;
 

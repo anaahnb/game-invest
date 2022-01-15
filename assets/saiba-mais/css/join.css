@@ -23,13 +23,7 @@
 
 
 /* Principais Meios de Investimento */
-@import url("./principaisMeiosdeInvestimento/principalMeiodeInvestimento.css");
-@import url("./principaisMeiosdeInvestimento/rendaFixa-cards.css");
-@import url("./principaisMeiosdeInvestimento/rendaFixa.css");
-@import url("./principaisMeiosdeInvestimento/rendaFixa_tipografia.css");
-@import url("./principaisMeiosdeInvestimento/rendaVariavel-cards.css");
-@import url("./principaisMeiosdeInvestimento/rendaVariavel.css");
-@import url("principaisMeiosdeInvestimento/rendaVariavel_tipografia.css");
+@import url("./principaisMeiosdeInvestimento/investimentos.css");
 
 /* Joguinho */
 @import url("vamosJogar/joguinho.css");
