@@ -1,0 +1,110 @@
+@media only screen and (min-width: 0px){
+    #home{
+        background-image: url('../../img/background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .home{
+        height: 300px;
+        padding: 2em 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .subtitulo-inicial{
+        margin: 0rem 0rem 0.2rem 0rem;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-weight: 300;
+        text-align: center;
+        }
+    
+        .titulo-inicial{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 14px ;
+        color: #08755B;
+        text-align: center;
+        }
+
+        .container-inicial img{
+            margin: 1rem 2rem 0rem 2rem;
+            height: 100px;
+        
+            
+        }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 744px) {
+    .home{
+        width: 100%;
+    }
+    .home{
+        height: 500px;
+        padding: 2em 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .subtitulo-inicial{
+        margin: 0rem 0rem 0.2rem 0rem;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .titulo-inicial{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 40px ;
+        color: #08755B;
+        text-align: center;
+        }
+
+    .container-inicial img{
+        margin: 1rem 7rem 0rem 7rem;
+        height: 200px;
+        
+            
+        }
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 1364px) {
+    .home{
+        height: 733px;
+    }
+    
+    .subtitulo-inicial{
+        margin: 0rem 0rem 1rem 0rem;
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .titulo-inicial{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 50px ;
+        color: #08755B;
+        text-align: center;
+    }
+    .container-inicial img{
+        margin: 2rem 8rem 0rem 8rem;
+        height: 280px;
+    
+        
+    }
+    
+
+}

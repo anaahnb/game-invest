@@ -1,0 +1,21 @@
+/* Estilo */
+@import url("style/style.css");
+@import url("style/reset.css");
+
+/* Header */
+@import url("header/header.css");
+
+/* Home */
+@import url("home/home.css");
+
+/* Informações */
+@import url("informacoes/informacoes.css");
+
+/* Carteira */
+@import url("tesouro-direto/tesouro-direto.css");
+
+/* API Simulação */
+@import url("simulador/simulador.css");
+
+/* Footer */
+@import url("footer/footer.css");

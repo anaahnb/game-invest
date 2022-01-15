@@ -1,0 +1,43 @@
+/* "col-sm-6, card, card-body, card-text */
+
+
+.contador{
+    margin: 1.5rem 0rem 0rem 5rem;
+}
+
+.contador-container{
+   
+    background-color: #E4F8DA;
+    color: #21504C;
+    display: flex;
+    flex-direction: column;
+    background-clip: border-box;
+    border-radius: 24px;
+
+}
+
+.contador-simulador{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+
+}
+
+.contador-texto{
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0rem 0rem 0rem 1.8rem;
+}
+.contador-texto{
+    background-image: url('../../img/perfil-investidor/maleta.svg');
+    background-repeat: no-repeat;
+}
+
+.selecionar-ativos{
+    margin-top: 0.5rem;
+    background-color: #E4F8DA;
+    font-family: 'Poppins';
+    padding: 0.3rem 0.4rem;
+    border-radius: 15px;
+}

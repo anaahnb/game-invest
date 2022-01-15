@@ -1,0 +1,80 @@
+/* Celular */
+@media screen and (min-width: 0) {
+    
+.botao a {
+    font-family: var(--press);
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    background-color: #F6B43A;
+    color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 36px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25)
+}
+
+.botao a:hover {
+    background-color: #34830f;
+}
+
+}
+
+/* Tablet */
+@media screen and (min-width: 744px) {
+    
+.botao a {
+    font-family: var(--press);
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    background-color: #F6B43A;
+    color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 36px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25)
+}
+
+.botao a:hover {
+    background-color: #34830f;
+}
+    
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    
+.botao a {
+    font-family: var(--press);
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #F6B43A;
+    color: #ffffff;
+    padding: 12px 15px;
+    border-radius: 36px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25)
+
+
+}
+
+.botao a:hover {
+    background-color: #34830f;
+}
+   
+}
+
+
+b{
+    color: #08756C;
+    font-weight: bold;
+}

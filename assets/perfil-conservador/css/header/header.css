@@ -1,0 +1,109 @@
+@media only screen and (min-width: 0px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main-header{
+        height: 50px;
+        background-color: #020202;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #logo {
+        width: 115px;
+        height: 40px;
+        padding-left: 1rem;
+    }
+
+    .header-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__nav{
+        overflow: hidden;
+        background-color: #020202;
+        position: absolute;
+        top: 50px;
+        right: 0;
+    }
+
+    #nav-bar{
+        display: none;
+    }
+
+    .header__Botao__Burguer{
+        border: none;
+        background-color: #020202;
+        position: absolute;
+        right: 0;
+        padding: 0rem 1rem 0rem 0rem;
+    }
+
+    .header__Botao__Burguer img{
+        width: 20px;
+        border: none;
+    }
+
+    .header__nav a {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+    }
+
+    .header__nav .header__Botao__Burguer{
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+}
+
+@media only screen and (min-width: 744px){
+    
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .header-main{
+        width: 100%;
+        justify-content: space-between;
+        padding: 0px 150px 0px 120px;
+    }
+    .main-header{
+        height: 70.45px;
+    }
+
+    #logo {
+        width: 175px;
+        height: 53.171px;
+    }
+
+    .header__nav{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: initial;
+    }
+
+    #nav-bar{
+        display: block;
+        
+    }
+    .header__Botao__Burguer{
+        display: none;
+    }
+
+    .nav-ul li{
+        display: inline-block;
+        margin: 0rem 1.5rem 0rem 1.5rem;
+    }
+  }
