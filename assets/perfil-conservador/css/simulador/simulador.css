@@ -61,6 +61,7 @@
     }
     .titulo-simulador{
         font-family: 'Press Start 2P';
+        font-weight: 400;
         color: #FFFDF9;
         text-align: center;
         font-size: 12px;
