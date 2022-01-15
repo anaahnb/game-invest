@@ -78,3 +78,8 @@ b{
     color: #08756C;
     font-weight: bold;
 }
+
+strong{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+}

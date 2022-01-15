@@ -61,6 +61,7 @@
     }
     .titulo-simulador{
         font-family: 'Press Start 2P';
+        font-weight: 400;
         color: #FFFDF9;
         text-align: center;
         font-size: 12px;
@@ -175,6 +176,7 @@
         display: flex;
         flex-direction: unset;
         max-width: 800px;
+        justify-content: center;
     }
 
     .simulador > h2{
@@ -213,7 +215,7 @@
         display: flex;
         flex-direction: column;
         gap: 0.7em;
-        margin: 1.58rem 0rem 0rem 0rem;
+        margin: 1.58rem 0rem 0rem 1.2rem;
     }
    
     .container{
@@ -247,7 +249,7 @@
     
 
     .contador{
-        margin: 0rem 0rem 0rem 8rem;
+        margin: 0rem 0rem 0rem 6rem;
     }
 
     .contador-container{
@@ -298,6 +300,7 @@
         display: flex;
         flex-direction: unset;
         max-width: 800px;
+        justify-content: center;
     }
 
     .simulador > h2{
@@ -336,7 +339,7 @@
         display: flex;
         flex-direction: column;
         gap: 0.7em;
-        margin: 1.58rem 0rem 0rem 0rem;
+        margin: 1.58rem 0rem 0rem 0.5rem;
     }
    
     .container{
