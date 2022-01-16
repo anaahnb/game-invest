@@ -7,9 +7,9 @@ body {
 @media only screen and (min-width: 0px) {
     
     #container {
-        width: 622px;
-        height: 920px;
-        margin: 180px auto;
+        width: 250px;
+        height: 450px;
+        margin: 100px auto;
         padding: 10px 25px 40px 10px;
         border-radius: 23px;
         background-color: white;
@@ -22,25 +22,25 @@ body {
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
-            height: 100px;
-            margin: 30px;
+            height: 60px;
+            margin: 10px;
     }
 
     h1 {
         text-align: center;
         font-family: 'Press Start 2P', cursive;
-        font-size: 30px;
+        font-size: 10px;
         line-height: 150%;
         text-transform: uppercase;
-        margin: 30px 10px 40px 10px;
+        margin:10px;
     }
 
     li {
-        margin: 40px;
+        margin: 21px 15px;
         text-align: justify;
         font-family: 'Poppins', sans-serif;
-        font-size: 30px;
-        line-height: 150%;
+        font-size: 13px;
+        line-height: 17px;
     }
     
     input[type="radio" i] {
@@ -55,7 +55,7 @@ body {
 
     .button {
         border-radius: 10px;
-        width: 60px;
+        width: 18px;
         padding: 15px;
         position: relative;
         float: right;
@@ -72,7 +72,7 @@ body {
     }
     
     .button a {
-        font-size: 30px;
+        font-size: 15px;
         text-decoration: none;
         color: black;
     }
