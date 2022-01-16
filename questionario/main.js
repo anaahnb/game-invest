@@ -64,7 +64,7 @@ $('#next').on('click', function (e) {
   
   // protecão caso não ecolha nenhuma questão
   if (isNaN(selections[questionCounter])) {
-    alert('Please make a selection!');
+    alert('Por favor, selecione uma opção!');
   } else {
     questionCounter++;
     displayNext();
