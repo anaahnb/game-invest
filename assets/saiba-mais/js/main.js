@@ -9,10 +9,10 @@ sr.reveal('.container__começar', {
   duration: 1000
 })
 
-sr.reveal('.item-vantagens', {
-  rotate: { x: 0, y: 100, z:0},
-  duration: 2000
-})
+// sr.reveal('.item-vantagens', {
+//   rotate: { x: 0, y: 100, z:0},
+//   duration: 2000
+// })
 
 sr.reveal('.perfil__', {
   scale: 0.5,

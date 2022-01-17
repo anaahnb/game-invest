@@ -80,6 +80,12 @@
 
         text-align: justify;
     }
+    .perfil__investidor__caixa strong{
+        color: #145917;
+        font-weight: 700;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
 }
 
 @media only screen and (min-width: 770px){
@@ -117,7 +123,6 @@
         font-family: 'Poppins', sans-serif;
         font-size: 1.1em;
         padding-top: 1em;
-        
     }
 
 }
