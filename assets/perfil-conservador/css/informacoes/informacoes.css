@@ -2,6 +2,8 @@
 @media screen and (min-width: 0) {
     .informacao {
         background: #EDF7F2;
+        color: #29302D;
+
 
     }
 
@@ -10,17 +12,19 @@
         font-weight: 400;
         color: #08756C;
         text-align: center;
-        font-size: 11px;
-        line-height: 16px;
-        padding: 20px 6px 0rem 6px;
+        font-size: 13px;
+        line-height: 150%;
+        padding: 20px 60px 0rem 60px;
     }
 
     .informacao-introducao p {
         font-family: 'Poppins', sans-serif;
-        margin: 1rem 0rem 0rem 0rem;
+        margin: 1.3rem;
         font-size: 14px;
-        text-align: center;
+        text-align: justify;
+        line-height: 144%;
         padding: 0rem 1.7rem;
+        color: #29302D;
     }
 
     .informacao-introducao {
@@ -31,30 +35,33 @@
         font-family: 'Press Start 2P', cursive;
 
 
+
     }
 
     .botao {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Press Start 2P', cursive;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
-        padding: 2rem 2rem 3rem 2rem;
+        padding: 0.2rem 2rem 3rem 2rem;
     }
 
     .informacao-texto-importancia p {
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 40px;
+        color: #29302D;
 
     }
 
     .por-onde-comeco-a-investir h2 {
         color: #08755B;
         text-align: center;
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 144%;
         font-weight: 400;
-        margin: 0rem 0.6rem 1rem 0.6rem;
+        margin: 0rem 0.2rem 1rem 0.2rem;
 
     }
 
@@ -77,21 +84,18 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         text-align: justify;
-        margin: 0rem 0rem 0.5rem 0rem;
+        padding: 0rem 1.7rem;
         line-height: 18px;
         font-size: 14px;
         padding: 0;
+        color: #29302D;
+
     }
 
-    .texto-negrito p {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 550;
-    }
 
     .bau img {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 40px auto 0px auto;
         height: 80px;
     }
 
@@ -100,6 +104,8 @@
         font-size: 15px;
         font-weight: 600;
         text-align: center;
+        color: #29302D;
+
     }
 
 
@@ -245,9 +251,9 @@
     .informacao-introducao p {
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        margin: 2rem 0rem 0rem 0rem;
+        margin: 1rem 0rem 0rem 0rem;
         font-size: 18px;
-        padding: 0rem 15rem;
+        /* padding: 0rem 15rem; */
     }
 
     .informacao-introducao {
@@ -268,17 +274,15 @@
     }
 
     .botao {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        font-size: 16px;
+        font-family: 'Press Start 2P', cursive;
         text-align: center;
-        padding: 2rem;
+        /* padding: 2rem; */
     }
 
     .informacao-texto-importancia p {
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
-        padding: 2rem 24rem 1rem 24rem;
+        padding: 2rem 18rem 1rem 18rem;
 
     }
 
@@ -335,10 +339,9 @@
 
     .bau p {
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
         font-weight: 600;
         text-align: center;
-        padding: 2rem 20rem 0rem 20rem;
+        padding: 0.8rem 20rem 1rem 20rem;
     }
     
 

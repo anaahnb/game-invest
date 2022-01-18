@@ -15,8 +15,8 @@
         
     }
     .subtitulo-inicial{
-        margin: 0rem 0rem 0.2rem 0rem;
-        font-size: 12px;
+        margin: 0rem 0rem 0.4rem 0rem;
+        font-size: 13px;
         font-family: 'Poppins', sans-serif;
         color: black;
         font-weight: 300;
@@ -25,14 +25,14 @@
     
         .titulo-inicial{
         font-family: 'Press Start 2P', cursive;
-        font-size: 14px ;
+        font-size: 20px ;
         color: #08755B;
         text-align: center;
         }
 
         .container-inicial img{
             margin: 1rem 2rem 0rem 2rem;
-            height: 100px;
+            height: 130px;
         
             
         }
