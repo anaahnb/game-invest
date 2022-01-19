@@ -23,3 +23,6 @@
 
 /* Footer */
 @import url("footer/footer.css");
+
+/* Grafico */
+@import url("grafico-pizza/grafico-pizza.css");
