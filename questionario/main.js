@@ -184,7 +184,7 @@ function displayScore() {
 
   } else if ( selection < 7) {
     resultado = 'moderado';
-    score.append('Seu perfil é ' + resultado + ' !');
+    window.location.replace("../perfil-moderado.html");
     return score;
 
   } else if (selection >= 7) { 

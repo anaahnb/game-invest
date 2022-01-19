@@ -46,6 +46,10 @@
         line-height: 144%;
     }
 
+    #investimento__carteira {
+        padding: 20px 15px 40px 15px;
+    }
+
     .investimento__desc {
         font-family: var(--poppins);
         color: #29302D;

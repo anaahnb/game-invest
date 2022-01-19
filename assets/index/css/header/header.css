@@ -1,5 +1,5 @@
 @media only screen and (min-width: 0px){
-    * {
+    *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -51,8 +51,7 @@
     }
 
     .header__nav a {
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
+        font-family: var(--poppins);
         color: white;
         padding: 14px 16px;
         text-decoration: none;
@@ -97,7 +96,6 @@
 
     .header__nav a {
         font-size: 16px;
-        font-weight: 500;
     }
 
     #nav-bar{
