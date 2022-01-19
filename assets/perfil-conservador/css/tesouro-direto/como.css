@@ -1,0 +1,130 @@
+@media screen and (min-width: 0) {
+    
+    .como-investir-tesouro-direto {
+        padding: 1.5rem 2rem 3rem 2rem;
+        background: #F4F3F3;
+    }
+
+    .como-investir-tesouro-direto img{
+        height: 70px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .como-investir-tesouro-direto h2{
+        font-family: 'Press Start 2P', cursive;
+        color: #08755B;
+        font-weight: 500;
+        text-align: center;
+        font-size: 13px;
+        padding: 20px 65px 40px 65px;
+        line-height: 150%;
+
+    }
+
+
+    .investimento__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0rem 1.7rem;
+        margin-bottom: 30px;
+    }
+
+    .investimento__num {
+        font-family: var(--press);
+        font-size: 30px;
+        color: #29302D;
+    }
+
+    .investimento__box h3 {
+        font-family: var(--poppins);
+        color: #08755B;
+        font-size: 14px;
+        margin: 8px 0 20px 0;
+        text-align: justify;
+        line-height: 144%;
+    }
+
+    .investimento__desc {
+        font-family: var(--poppins);
+        color: #29302D;
+        font-size: 14px;   
+        line-height: 144%; 
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 744px) {
+    .como-investir-tesouro-direto{
+        padding: 2rem 10rem 3rem 10rem;
+
+
+    }
+    .como-investir-tesouro-direto img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .como-investir-tesouro-direto h2{
+        font-family: 'Press Start 2P', cursive;
+        color: #08755B;
+        font-weight: 500;
+        text-align: center;
+        font-size: 18px;
+        margin: 3rem;
+
+    }
+}
+
+@media screen and (min-width: 1364px) {
+    .como-investir-tesouro-direto {
+        padding: 5rem 22rem 6rem 22rem;
+        background: #F4F3F3;
+
+
+    }
+    .como-investir-tesouro-direto img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
+    }
+    .como-investir-tesouro-direto h2{
+        font-family: 'Press Start 2P', cursive;
+        color: #08755B;
+        font-weight: 500;
+        text-align: center;
+        font-size: 18px;
+        margin: 3rem;
+
+    }
+
+    .investimento__box {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .investimento__num {
+        font-size: 40px;
+    }
+
+
+    .investimento__box h3 {
+        font-size: 18px;
+        text-align: justify;
+        
+    }
+
+    .investimento__desc {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 144%;
+    }
+
+    .investimentos__passos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

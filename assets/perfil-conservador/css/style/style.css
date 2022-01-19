@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Celular */
 @media screen and (min-width: 0) {
     

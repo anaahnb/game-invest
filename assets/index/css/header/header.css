@@ -1,33 +1,31 @@
-@media only screen and (min-width: 0px) {
+@media only screen and (min-width: 0px){
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-    .main-header {
-        height: 60px;
+    .main-header{
+        height: 50px;
         background-color: #020202;
         color: white;
         display: flex;
         justify-content: space-between;
-        padding-left: 2rem;
-        padding-right: 2rem;
     }
-
-    .header-main>img {
+    
+    #logo {
         width: 115px;
-        height: 50px;
+        height: 40px;
+        padding-left: 1rem;
     }
 
-    .header-main {
-        font-family: 'Poppins', sans-serif;
+    .header-main{
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .header__nav {
+    .header__nav{
         overflow: hidden;
         background-color: #020202;
         position: absolute;
@@ -35,25 +33,26 @@
         right: 0;
     }
 
-    #nav-bar {
+    #nav-bar{
         display: none;
     }
 
-    .header__Botao__Burguer {
+    .header__Botao__Burguer{
         border: none;
         background-color: #020202;
         position: absolute;
         right: 0;
-        padding-right: 3rem;
+        padding: 1rem;
     }
 
-    .header__Botao__Burguer img {
+    .header__Botao__Burguer img{
         width: 20px;
         border: none;
     }
 
     .header__nav a {
-        font-family: var(--poppins);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
@@ -61,153 +60,55 @@
         display: block;
     }
 
-    .header__nav .header__Botao__Burguer {
+    .header__nav .header__Botao__Burguer{
         background: black;
         display: block;
         position: absolute;
         right: 0;
         top: 0;
     }
-    .botaoJogar{
-        background: #F9AA18;
-        padding: 0rem 0.5rem 0rem 0.5rem;
-        border: none;
-
-
-    }
-
 
 }
 
-@media only screen and (min-width: 744px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .main-header {
-        height: 80px;
-        background-color: #020202;
-        color: white;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .header-main>img {
-        width: 115px;
-        height: 50px;
-    }
-
-    .header-main {
-        font-family: 'Poppins', sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header__nav {
-        overflow: hidden;
-        background-color: #020202;
-        position: absolute;
-        top: 30px;
-        right: 0;
-        /* padding-top: 4rem; */
-    }
-
-    #nav-bar {
-        display: none;
-    }
-
-    .header__Botao__Burguer {
-        padding-right: 3rem;
-        border: none;
-        background-color: #020202;
-        position: absolute;
-        right: 0;
-    }
-
-    .header__Botao__Burguer img {
-        width: 2rem;
-        height: 1.7rem;
-        border: none;
-    }
-
-    .header__nav a {
-        font-family: var(--poppins);
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 16px;
-        display: block;
-    }
-
-    .header__nav .header__Botao__Burguer {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
+@media only screen and (min-width: 744px){
     
-    .botaoJogar{
-        background: #F9AA18;
-        padding: 0rem 0.2rem 0rem 0.2rem;
-        border: none;
-
-
-    }
-
-
 }
 
 
 @media only screen and (min-width: 1024px) {
-    .header-main {
-        font-family: 'Poppins', sans-serif;
+    .header-main{
         width: 100%;
         justify-content: space-between;
+
         padding: 0px 100px;
-        align-items: center;
+    }
+    .main-header{
+        height: 70.45px;
     }
 
-    .main-header {
-        height: 70px;
-    }
-
-    .header-main>img {
+    #logo {
         width: 175px;
         height: 53.171px;
     }
 
-    .header__nav {
+    .header__nav{
         position: initial;
-    }
-   
-
-    #nav-bar {
-        display: block;
-
-    }
-
-    .header__Botao__Burguer {
-        display: none;
-    }
-
-    .nav-ul li {
-        display: inline-block;
-    }
-
-    .botaoJogar{
-        background: #F9AA18;
-        border-radius: 36px;
-        width: 90px;
-        height: 27px;
-        border: none;
-
     }
 
     .header__nav a {
-        padding: 0 18px;
+        font-size: 16px;
+        font-weight: 500;
     }
 
-}
+    #nav-bar{
+        display: block;
+        
+    }
+    .header__Botao__Burguer{
+        display: none;
+    }
+
+    .nav-ul li{
+        display: inline-block;
+    }
+  }

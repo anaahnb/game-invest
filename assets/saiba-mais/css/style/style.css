@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body b {
     color: #08755B;
     font-weight: bold;
@@ -29,5 +33,5 @@ strong {
 }
 
 * {
-    line-height: 115%;
+    line-height: 144%;
 }

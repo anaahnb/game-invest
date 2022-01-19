@@ -34,8 +34,6 @@
     .por-onde-comeco-a-investir h2 {
         font-family: 'Press Start 2P', cursive;
 
-
-
     }
 
     .botao {
@@ -44,6 +42,11 @@
         font-size: 13px;
         text-align: center;
         padding: 0.2rem 2rem 3rem 2rem;
+    }
+
+    .botao button:hover {
+        /* background-color: #87e7df; */
+        transform: translateY(-5px);
     }
 
     .informacao-texto-importancia p {
@@ -65,10 +68,6 @@
 
     }
 
-    .por-onde-comeco-a-investir-texto1 {
-        font-weight: 500;
-
-    }
 
     .por-onde-comeco-a-investir-texto2 {
         font-weight: 500;
@@ -82,7 +81,7 @@
 
     .container-textos-comecar-a-investir p {
         font-family: 'Poppins', sans-serif;
-        font-weight: 500;
+        /* font-weight: 500; */
         text-align: justify;
         padding: 0rem 1.7rem;
         line-height: 18px;
@@ -178,7 +177,7 @@
     }
 
     .por-onde-comeco-a-investir-texto1 {
-        font-weight: 500;
+        /* font-weight: 500; */
         width: 50%;
         margin: 0rem 1rem 0rem 0rem;
 
@@ -198,7 +197,7 @@
 
     .container-textos-comecar-a-investir p {
         font-family: 'Poppins', sans-serif;
-        font-weight: 500;
+        /* font-weight: 500; */
         text-align: justify;
         margin: 0rem 0rem 2rem 0rem;
         line-height: 25px;
@@ -296,7 +295,7 @@
     }
 
     .por-onde-comeco-a-investir-texto1 {
-        font-weight: 500;
+        /* font-weight: 500; */
         width: 50%;
         margin: 0rem 1rem 0rem 0rem;
 
@@ -317,7 +316,7 @@
 
     .container-textos-comecar-a-investir p {
         font-family: 'Poppins', sans-serif;
-        font-weight: 500;
+        /* font-weight: 500; */
         text-align: justify;
         margin: 0rem 0rem 2rem 0rem;
         line-height: 25px;

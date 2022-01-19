@@ -1,6 +1,8 @@
 /* Estilo */
 @import url("style/style.css");
 @import url("style/reset.css");
+@import url("variaveis.css");
+
 
 /* Header */
 @import url("header/header.css");
@@ -12,7 +14,9 @@
 @import url("informacoes/informacoes.css");
 
 /* Carteira */
-@import url("tesouro-direto/tesouro-direto.css");
+/* @import url("tesouro-direto/tesouro-direto.css"); */
+@import url("tesouro-direto/como.css");
+
 
 /* API Simulação */
 @import url("simulador/simulador.css");
