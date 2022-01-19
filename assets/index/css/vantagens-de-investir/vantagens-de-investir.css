@@ -8,7 +8,15 @@
         padding: 2rem;
         line-height: 144%;
     }
+    .flex-vantagens {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 2em;
 
+        overflow: auto;
+    }
     .item-vantagens {
         width: 180px;
         height: 250px;
@@ -27,21 +35,18 @@
     .item-vantagens img {
         width: 50%;
         height: 60;
+        display: inline-block;
     }
 
     .item-vantagens:nth-child(3) {
         margin-bottom: 50px;
     }
 
-    .flex-vantagens {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 2em;
-    }
+    
 
     .título-vantagens-de-investir {
         font-family: 'Press Start 2P', cursive;
+        
     }
 
     .item-vantagens p {
@@ -49,6 +54,7 @@
         font-family: 'Poppins', sans-serif;
         font-size: 13px;
         color: #29302D;
+      
     }
 
     .item-vantagens-subtitulo {
