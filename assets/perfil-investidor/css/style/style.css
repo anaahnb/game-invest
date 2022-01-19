@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Celular */
 @media screen and (min-width: 0) {
     
@@ -17,8 +22,10 @@
 }
 
 .botao a:hover {
-    background-color: #34830f;
-}
+    background-color: #F6B43A;
+    color: #ffffff;
+    transform: scale(1.1);
+    /* transition: all 0.5s; */
 
 }
 
@@ -37,11 +44,14 @@
     border: none;
     cursor: pointer;
     transition: 1s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25)
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .botao a:hover {
-    background-color: #34830f;
+    background-color: #F6B43A;
+    color: #ffffff;
+    transform: scale(1.1);
+    /* transition: all 0.5s; */
 }
     
     
@@ -62,13 +72,16 @@
     border: none;
     cursor: pointer;
     transition: 1s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25)
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 
 
 }
 
 .botao a:hover {
-    background-color: #34830f;
+    background-color: #f3bc57;
+    color: #ffffff;
+    transform: scale(1.1);
+    /* transition: all 0.5s; */
 }
    
 }
@@ -79,7 +92,9 @@ b{
     font-weight: bold;
 }
 
-strong{
+/* strong{
     font-family: 'Press Start 2P', cursive;
     font-weight: 400;
+} */
+
 }

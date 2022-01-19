@@ -31,7 +31,7 @@
 
     .item-vantagens > img {
         width: 130px;
-        height: 120px;
+        height: 60px;
         display: inline-block;
     }
 
@@ -57,6 +57,7 @@
         /* margin: 10px 0; */
         font-family: 'Poppins';
         font-size: 13px;
+        line-height: 144%;
     }
 
     .item-vantagens-subtitulo {
@@ -127,7 +128,7 @@
 
     .item-vantagens img {
         width: 60%;
-        height: 60;
+        height: 120px;
     }
 
 

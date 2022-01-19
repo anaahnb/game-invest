@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    /* Paleta de cores */
+    --amareloClaro: #FFF5DA;
+    --verdeClaro: #D0E4C3;
+    --verde: #6FB272;
+    --verdeEscuro: #087207;
+    --azul: #4E948E;
+    --laranja: #F6B43A;
+    --preto: #000000;
+
+
+    /* Fontes */
+    --press: 'Press Start 2P', cursive;
+    --poppins: 'Poppins', sans-serif;
+    --montSerrat: 'Montserrat', sans-serif;
+}

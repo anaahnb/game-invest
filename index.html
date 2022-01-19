@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Inter:wght@300;400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&display=swap"rel="stylesheet" />
-  <link href="https://fonts.google.com/share?selection.family=Poppins:wght@400;500" rel="stylesheet">
+  <link href="https://fonts.google.com/share?selection.family=Poppins:wght@500" rel="stylesheet"/>
   <link rel="icon" type="imagem/png" href="assets/favicon.ico" />
   <!-- Css -->
   <link rel="stylesheet" href="./assets/index/css/join.css">
@@ -21,17 +21,18 @@
   <!-- Header -->
   <header class="main-header">
     <div class="header-main">
-      <img src="./assets/index/img/header/logo.svg" />
+      <a href="index.html">
+        <img id="logo" src="./assets/saiba-mais/img/header/logo.svg" />
+      </a>
       <nav class="header__nav">
         <ul class="nav-ul" id="nav-bar">
-          <li><a href="#home" class="nav-li">Descrição</a></li>
+          <li><a href="#descricao" class="nav-li">Descrição</a></li>
           <li><a href="#Vantagens" class="nav-li">Vantagens</a></li>
-          <li><a href="#meios-investimento" class="nav-li">Meios de Investimento</a></li>
-          <!-- <li class="botaoJogar"><a href="#">Jogar</a></li> -->
+
         </ul>
       </nav>
-      <button onclick="navbar()" class="header__Botao__Burguer" type="button" data-toggle="collapse">
-        <img src="./assets/index/img/header/Group 57.png" alt="Burguer navegação">
+      <button onclick="navbar()"  class="header__Botao__Burguer" type="button" data-toggle="collapse">
+        <img src="./assets/saiba-mais/img/header/Group 57.png" alt="Burguer navegação">
       </button>
     </div>
   </header>
@@ -59,7 +60,7 @@
 
 
 <!-- Explicação Do RPG -->
-  <section class='explicandoRPG'>
+  <section id="descricao" class='explicandoRPG'>
     <div class="container_explicação_do_RPG">
       <div class="textoRpg1">
         <div class="texto1">
@@ -143,6 +144,8 @@
 
   </main>
   <script src="./assets/index/js/main.js"></script>
+  <script src="./assets/index/js/scroll.js"></script>
+
 </body>
 
 </html>

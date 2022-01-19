@@ -73,7 +73,6 @@
         text-align: center;
         font-size: 12px;
         margin: 0rem 5rem;
-        line-height: 144%;
     }
     .logo{
         /* height:90px; */
@@ -207,6 +206,12 @@
         height: 150px;
         gap: 1em;
     }
+
+    .item-footer:nth-child(2) {
+        margin-top: 14px;
+        justify-content: flex-start;
+    }
+    
     .item-footer a{
         font-family: 'Poppins', sans-serif;
 

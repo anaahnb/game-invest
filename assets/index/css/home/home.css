@@ -90,7 +90,11 @@
     .button__container button:nth-child(1) {
         background-color: #F6B43A;
         transition: 2s;
+<<<<<<< HEAD
         padding: 0.7rem 2.5rem;
+=======
+        padding: 0.7rem 1.5rem;
+>>>>>>> a80085d107b30954e959306591cb610681a4c638
     }
 
     .button__container button:nth-child(1):hover {

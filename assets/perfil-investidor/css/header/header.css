@@ -1,9 +1,10 @@
 @media only screen and (min-width: 0px){
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
+
     .main-header{
         height: 50px;
         background-color: #020202;
@@ -28,7 +29,7 @@
         overflow: hidden;
         background-color: #020202;
         position: absolute;
-        top: 50px;
+        top: 30px;
         right: 0;
     }
 
@@ -41,7 +42,7 @@
         background-color: #020202;
         position: absolute;
         right: 0;
-        padding: 0rem 1rem 0rem 0rem;
+        padding: 1rem;
     }
 
     .header__Botao__Burguer img{
@@ -50,11 +51,12 @@
     }
 
     .header__nav a {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 14px;
         display: block;
     }
 
@@ -77,7 +79,8 @@
     .header-main{
         width: 100%;
         justify-content: space-between;
-        padding: 0px 150px 0px 120px;
+
+        padding: 0px 100px;
     }
     .main-header{
         height: 70.45px;
@@ -89,9 +92,12 @@
     }
 
     .header__nav{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
         position: initial;
+    }
+
+    .header__nav a {
+        font-size: 16px;
+        font-weight: 500;
     }
 
     #nav-bar{
@@ -104,6 +110,5 @@
 
     .nav-ul li{
         display: inline-block;
-        margin: 0rem 1.5rem 0rem 1.5rem;
     }
   }
