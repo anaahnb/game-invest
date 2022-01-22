@@ -2,7 +2,7 @@
 
     .conteiner__perfil__investidor{
         width: 100%;
-        margin: 60px 0;
+        margin-top: 50px;
         padding: 0 30px;
     }
 
@@ -128,6 +128,10 @@
 }
 
 @media only screen and (min-width: 1024px){
+    .conteiner__perfil__investidor {
+        margin: 60px 0 0 0;
+    }
+    
     .conteiner__perfil__investidor h2{
         font-size: 1.3rem;
         margin-bottom: 30px;

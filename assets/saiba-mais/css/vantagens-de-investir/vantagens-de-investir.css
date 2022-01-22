@@ -69,6 +69,10 @@
 
 @media only screen and (min-width: 744px) {
 
+    #Vantagens {
+        background-color: initial;
+    }
+
     .descricao {
         margin: 0;
         width: 100%;
@@ -136,7 +140,7 @@
         justify-content: center;
         flex-direction: row;
         gap: 2em;
-        margin-bottom: 120px;
+        margin-bottom: 80px;
         padding: 0 0 50px;
     }
 

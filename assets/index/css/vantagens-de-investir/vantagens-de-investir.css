@@ -1,67 +1,64 @@
-@media only screen and (min-width: 0px) {
-    #Vantagens h2 {
+@media only screen and (min-width: 0px){
+
+    #Vantagens h2{
         margin: 0;
         font-size: 1em;
         text-align: center;
         font-family: 'Press Start 2P', cursive;
         color: #08755B;
-        padding: 2rem;
+        padding: .5rem 2rem 2rem 2rem;
         line-height: 144%;
     }
-    .flex-vantagens {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        gap: 2.2em;
 
-        overflow: auto;
-    }
     .item-vantagens {
         width: 180px;
-        height: 260px;
+        height: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         border: solid 2px #104C47;
-        margin: 0px;
-        padding: 0.5em 1em;
+        padding: 1em;
         text-align: center;
         border-radius: 25px;
         border-width: 3px;
         background-color: #FFFFFF;
+        
     }
 
-    .item-vantagens img {
-        width: 50%;
-        height: 60;
+    .item-vantagens > img {
+        width: 130px;
+        height: 60px;
         display: inline-block;
     }
 
     /* .item-vantagens:nth-child(3) {
-        /* margin-bottom: 50px;
+         margin-bottom: 50px; 
     } */
 
-    
+    .flex-vantagens {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 2em;
+        overflow: auto;
+        padding: 0px 0px 50px 10px;
+    }
 
     .título-vantagens-de-investir {
         font-family: 'Press Start 2P', cursive;
-        
     }
 
     .item-vantagens p {
-        margin: 0px;
-        font-family: 'Poppins', sans-serif;
+        /* margin: 10px 0; */
+        font-family: 'Poppins';
         font-size: 13px;
-        color: #29302D;
-
-        display: inline-block;
-      
+        line-height: 144%;
     }
 
     .item-vantagens-subtitulo {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", ;
         font-size: 12px;
         color: #29302D;
     }
@@ -77,7 +74,7 @@
     #Vantagens h2 {
         font-size: 1.1em;
         font-family: 'Press Start 2P', cursive;
-        color: #08755B;
+        color: #FFFFFF;
     }
 
     .item-vantagens {
@@ -97,9 +94,8 @@
     }
 
     .item-vantagens p {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins';
         font-size: 1.1rem;
-        color: #29302D;
 
 
     }
@@ -109,7 +105,7 @@
     #Vantagens h2 {
         font-size: 1.3em;
         font-family: 'Press Start 2P', cursive;
-        color: #08755B;
+        color: #1C877E;
 
     }
 
@@ -117,15 +113,10 @@
         width: 16rem;
         height: 22rem;
         background: #FFFFFF;
-        justify-content: center;
     }
 
     .item-vantagens:nth-child(2) {
         height: 25rem;
-    }
-
-    .item-vantagens:nth-child(2) p {
-        max-width: 170px;
     }
 
     .item-vantagens:nth-child(3) {
@@ -134,7 +125,7 @@
 
     .item-vantagens img {
         width: 60%;
-        height: 60;
+        height: 120px;
     }
 
 
@@ -143,13 +134,13 @@
         flex-direction: row;
         gap: 2em;
         margin-bottom: 120px;
+        padding: 0 0 50px;
     }
 
     .item-vantagens p {
         margin-top: 1rem;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins';
         font-size: 16px;
-        color: #29302D;
 
 
     }

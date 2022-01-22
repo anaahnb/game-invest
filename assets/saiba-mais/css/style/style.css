@@ -1,3 +1,5 @@
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -14,8 +16,13 @@ strong {
     font-weight: bold;
 }
 
-/* coloca visibility hidden, pra poder utilizar pelo scrool reveals */
+@media screen and (min-width: 744px) {
+    #grad {
+        background-image: linear-gradient(#EDF6F2, #fff, #EDF6F2, #EDF6F2, #EDF6F2);
+    }
+}
 
+/* coloca visibility hidden, pra poder utilizar pelo scrool reveals */
 .texto-home, .paragrafo-home{
     visibility: hidden;
 }

@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#grad {
+  background-image: linear-gradient(#EDF6F2, #fff, #EDF6F2, #EDF6F2, );
+}
+
 
 /* Animação com Scroll */
 
