@@ -17,7 +17,7 @@
 
 - [x] Implementar API de rendimento
 - [ ] Seção sobre meios de investimentos
-- [ ] Dicionário do investidor
+- [ ] Responsividade do dicionário do investidor
 
 ### 🛠 Tecnologias
 
