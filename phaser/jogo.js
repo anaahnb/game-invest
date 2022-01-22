@@ -23,33 +23,101 @@ var config = {
     "transparent"    : true
 };
 
-// Usado para identificar o começo do jogo
-var iniciaJogo;
+// Controle de cenas/configurações do jogo
+var cenaJogo;
 
 // Variaveis relacionadas aos objetos do jogo
-    // Personagens e paredes invisiveis
+// Personagens e paredes invisiveis
 var jogador;
 var npc;
 var paredes;
-    // Balao de dialogo do NPC
+
+// Balao de dialogo do NPC
 var balao;
 var balaoTexto;
 var balaoTextoContainer;
 var botaoComecar;
 var botaoComecarTexto;
+var botaoAindaNao;
+var botaoAindaNaoTexto;
 
-    // Botões para controlar o personagem
+// Botões para controlar o personagem
 var controleCima;
 var controleBaixo;
 var controleDir;
 var controleEsq;
 
-// Relacionado ao carregamento do HTML do questionário
-var questionario;
+// Questionário
+var questionario = [
+    
+    {
+    pergunta: "Ao investir, voce gostaria de:",
+    escolhas: ["Preservar o meu patrimônio correndo pouco risco, investir a longo prazo.", 
+    "Preservar e valorizar o meu patrimônio correndo alguns riscos e investir em medio e longo prazo.", 
+    "Maximizar meu patrimônio em um período curto, se necessario correndo maiores riscos."]
+    }, 
+  
+  {
+    pergunta: "Em relação ao dinheiro que será investido, voce:",
+    escolhas: ["Não tem necessidade imediata dele.",
+    "Não preciso agora, mas posso precisar em breve.",
+    "Vai utilizar como complemento de renda."]
+  },
 
+  {
+    pergunta: "Sobre seu conhecimento no mercado financeiro:",
+    escolhas: ["Não possuo conhecimento sobre o mercado.",
+    "Conheço o básico e já entendo sobre os diferentes tipos de investimentos.",
+    "Tenho formação direcionada ao mercado financeiro."]
+  },
+
+  {
+    pergunta: "Alguma vez, ja investiu?",
+    escolhas: ["Não, nunca investi.",
+    "Já investi em renda fixa, como tesouro direto, CDB, poupança e entre outros.",
+    "Sim, em renda variável, como ações, cambio, criptomoedas e entre outros."]
+  },
+
+  {
+    pergunta: "Qual valor voce tem para investir?",
+    escolhas: ["Não possuo muito para investir agora.",
+    "Até 10 mil.",
+    "Acima de 10 mil."]
+  },
+
+  {
+    pergunta: "Acompanha as variações do mercado de investimento?",
+    escolhas: ["Não vejo nada sobre.",
+    "Somente informações sobre os quais (desejo) aplicar",
+    "Acompanho tudo, pois eu tenho interesse em varias modalidades."]
+  }
+];
+
+// Contador de questões
+var questionarioCont;
+
+// Repostas do jogador
+var questionarioResp;
+
+// Interface do questionário
+var questionarioIcone;
+var questionarioQuestaoAtual;
+
+var questionarioIntPerg;
+var questionarioIntPergTexto;
+
+var questionarioIntResp;
+var questionarioIntRespTexto;
+
+var questionarioBotaoA;
+var questionarioBotaoB;
+var questionarioBotaoC;
+
+// Variável nativa do Phaser
 var game = new Phaser.Game(config);
 
-// Função Nativa do Phaser, carrega em memória recursos (imagens,sons...) que serão utilizados no jogo
+
+// Função nativa do Phaser, carrega em memória recursos (imagens,sons...) que serão utilizados no jogo
 function preload ()
 {
     // Fundo e Paredes
@@ -70,15 +138,19 @@ function preload ()
 
     // Botões
     this.load.image('botoes', 'img/botao.png');
+    this.load.image('botaoA', 'img/botaoA.png');
+    this.load.image('botaoB', 'img/botaoB.png');
+    this.load.image('botaoC', 'img/botaoC.png');
 
     // Questionário
-    this.load.html('questionario', '../questionario/index.html');
+    this.load.image('questionmark', '../questionario/question.png');
 }
 
-// Função Nativa do Phaser, cria objetos, eventos, etc... assim que o jogo é aberto
+// Função nativa do Phaser, cria objetos, eventos, etc... assim que o jogo é aberto
 function create ()
 {
-    iniciaJogo = false;
+    // Permite controlar a configuração do jogo pela variável
+    cenaJogo = this;
 
     //Adiciona fundo
     this.add.image(0, 0, 'fundo').setOrigin(0, 0);
@@ -158,16 +230,33 @@ function create ()
     ];
 
     // Container para o texto
-    balaoTextoContainer = this.add.text(210, 122, balaoTexto, 
-        {fontFamily: 'Georgia, "Goudy Bookletter 1911", Times, serif', fontSize: '28px', color: '#000', align: 'center' });
+    balaoTextoContainer = this.add.text(200, 122, balaoTexto, 
+        {
+            font: '28px Arial',
+            color: '#000',
+            align: 'center'
+        });
 
-    // Botão e seu texto
-    botaoComecar = this.add.ellipse(420, 400, 150, 50, 0xffffe0).setInteractive();
+    // Botões e seus textos
+    botaoComecar = this.add.ellipse(325, 365, 150, 50, 0xffffe0).setInteractive();
     botaoComecar.setStrokeStyle(3, 0xbbbbbb);
-    botaoComecarTexto = this.add.text(360, 382, 'Começar!', {fontFamily: 'Georgia, "Goudy Bookletter 1911", Times, serif', fontSize: '28px', color: '#000' });
+    botaoComecarTexto = this.add.text(265, 352, 'Começar!',
+    {
+        font: 'bold 26px Arial',
+        color: '#000'
+    });
+    
+    botaoAindaNao = this.add.ellipse(520, 365, 150, 50, 0xffffe0).setInteractive();
+    botaoAindaNao.setStrokeStyle(3, 0xbbbbbb);
+    botaoAindaNaoTexto = this.add.text(460, 352, 'Ainda não',
+    {
+        font: 'bold 26px Arial',
+        color: '#000'
+    });
 
     // Listener para chamar função abrirLink ao clicar no botão
-    botaoComecar.on('pointerdown', abrirLink, this);
+    botaoComecar.on('pointerdown', iniciarQuestionario, this);
+    botaoAindaNao.on('pointerdown', reiniciar, this);
 
     // Deixar o diálogo invisível no começo do jogo
     // A função "falarNPC" é responsável por torná-lo visível
@@ -175,6 +264,88 @@ function create ()
     balaoTextoContainer.setVisible(false);
     botaoComecar.setVisible(false);
     botaoComecarTexto.setVisible(false);
+    botaoAindaNao.setVisible(false);
+    botaoAindaNaoTexto.setVisible(false);
+
+
+    // Adiciona interface do questionário
+    questionarioIntPerg = this.add.rectangle(200, 165, 400, 330, 0xeeeeee);
+    // Borda
+    questionarioIntPerg.setStrokeStyle(3, 0xbbbbbb);
+    // Efeito visual
+    this.tweens.add({
+        targets: questionarioIntPerg,
+        scaleX: 0.98,
+        scaleY: 0.95,
+        yoyo: true,
+        repeat: -1,
+        ease: 'Sine.easeInOut'
+    });
+    questionarioIntPerg.setVisible(false);
+
+    questionarioIntResp = this.add.rectangle(630, 165, 400, 330, 0xa2ffbb);
+    questionarioIntResp.setStrokeStyle(3, 0xbbbbbb);
+    this.tweens.add({
+        targets: questionarioIntResp,
+        scaleX: 0.98,
+        scaleY: 0.95,
+        yoyo: true,
+        repeat: -1,
+        ease: 'Sine.easeInOut'
+    });
+    questionarioIntResp.setVisible(false);
+
+    questionarioIntPergTexto = this.make.text({
+        x: 200,
+        y: 165,
+        text: '',
+        origin: { x: 0.5, y: 0.5 },
+        style: {
+            align: 'left',
+            font: 'bold 28px Arial',
+            fill: 'black',
+            wordWrap: { width: 380, useAdvancedWrap: true }
+        }
+    });
+    questionarioIntPergTexto.setVisible(false);
+
+    questionarioIntRespTexto = this.make.text({
+        x: 633,
+        y: 165,
+        text: '',
+        origin: { x: 0.5, y: 0.5 },
+        style: {
+            align: 'left',
+            font: 'bold 18px Arial',
+            fill: 'black',
+            wordWrap: { width: 380}
+        }
+    });
+    questionarioIntRespTexto.setVisible(false);
+
+    questionarioIcone = this.add.image(20, 20, 'questionmark').setOrigin(0, 0);
+    questionarioIcone.setVisible(false);
+
+    questionarioQuestaoAtual = this.add.text(100, 40, 'Questão ' + (questionarioCont+1) + ' de ' + (questionario.length-1),
+    {
+        font: 'bold 20px Arial',
+        color: '#000'
+    });
+    questionarioQuestaoAtual.setVisible(false);
+    
+
+
+    questionarioBotaoA = this.physics.add.sprite(100, 320, 'botaoA').setOrigin(0, 0);
+    questionarioBotaoA.setImmovable(true);
+    questionarioBotaoA.setVisible(false);
+
+    questionarioBotaoB = this.physics.add.sprite(365, 320, 'botaoB').setOrigin(0, 0);
+    questionarioBotaoB.setImmovable(true);
+    questionarioBotaoB.setVisible(false);
+
+    questionarioBotaoC = this.physics.add.sprite(632, 320, 'botaoC').setOrigin(0, 0);
+    questionarioBotaoC.setImmovable(true);
+    questionarioBotaoC.setVisible(false);    
 
 
     // Controladores
@@ -193,11 +364,7 @@ function create ()
     teclado = this.input.keyboard.on('keydown-D', movimDir, this);
     
     // Parar o movimento do personagem ao soltar a tecla
-    teclado = this.input.keyboard.on('keyup', movimParar, this);
-
-    // Ao falar com o NPC, permite usar a tecla ENTER para entrar no questionário
-    teclado = this.input.keyboard.on('keydown-ENTER', abrirLinkTeclado, this);
-    
+    teclado = this.input.keyboard.on('keyup', movimParar, this);    
 
     // Botões para controlar o personagem por mouse
     controleCima = this.add.image(675, 375, 'botoes').setOrigin(0, 0).setAlpha(0.6);
@@ -236,7 +403,7 @@ function create ()
     controleEsq.on('pointerup', movimParar, this);    
 }
 
-// Função Nativa do Phaser, funções que são executadas a cada frame (um jogo rodando a 60FPS executaria esta função 60 vezes em um segundo)
+// Função nativa do Phaser, para executar comandos a cada frame (um jogo rodando a 60FPS executaria esta função 60 vezes em um segundo)
 function update ()
 {
 }
@@ -282,7 +449,105 @@ function falarNPC (jogador, npc)
     balaoTextoContainer.setVisible(true);
     botaoComecar.setVisible(true);
     botaoComecarTexto.setVisible(true);
+    botaoAindaNao.setVisible(true);
+    botaoAindaNaoTexto.setVisible(true);
     
+}
+
+// Iniciando o questionário
+function iniciarQuestionario ()
+{
+    balao.setVisible(false);
+    balaoTextoContainer.setVisible(false);
+    botaoComecar.setVisible(false);
+    botaoComecarTexto.setVisible(false);
+    botaoAindaNao.setVisible(false);
+    botaoAindaNaoTexto.setVisible(false);
+
+    questionarioCont = 0;
+    questionarioResp = [];
+
+    questionarioIntPerg.setVisible(true);
+    questionarioIntPergTexto.setVisible(true);
+
+    questionarioIntResp.setVisible(true);
+    questionarioIntRespTexto.setVisible(true);
+
+    questionarioIcone.setVisible(true);
+
+    questionarioQuestaoAtual.setVisible(true);
+
+    questionarioBotaoA.setVisible(true);
+    questionarioBotaoB.setVisible(true);
+    questionarioBotaoC.setVisible(true);
+
+    // Adiciona Colisão entre Jogador e Botoes
+    this.physics.add.collider(jogador, questionarioBotaoA, questionarioEscolhaA, null, this);
+    this.physics.add.collider(jogador, questionarioBotaoB, questionarioEscolhaB, null, this);
+    this.physics.add.collider(jogador, questionarioBotaoC, questionarioEscolhaC, null, this);
+
+    // Parede invisível para impedir o jogador de passar debaixo da interface de perguntas
+    paredes.create(416, 280, 'parede').setScale(9,1).refreshBody();
+
+    questionarioProxPerg();
+}
+
+// Busca a próxima pergunta do questionário
+function questionarioProxPerg ()
+{
+    questionarioQuestaoAtual.setText('Questão ' + (questionarioCont+1) + ' de ' + (questionario.length));
+    jogador.x = 416;
+    jogador.y = 520;
+    movimParar();
+
+    if(questionarioCont < questionario.length){
+        questionarioIntPergTexto.setText(questionario[questionarioCont].pergunta);
+
+        questionarioIntRespTexto.setText([
+            "A. " + questionario[questionarioCont].escolhas[0],
+            "",
+            "B. " + questionario[questionarioCont].escolhas[1],
+            "",
+            "C. " + questionario[questionarioCont].escolhas[2],
+        ]);        
+    }
+    else if (questionarioCont < 7){
+        questionarioIcone.setVisible(false);
+        questionarioQuestaoAtual.setVisible(false);
+
+        questionarioIntPergTexto.setText('Obrigado por participar! Está preparado para saber seu perfil de investidor?');
+
+        questionarioIntRespTexto.setText('Toque em qualquer botão para continuar');
+
+        questionarioCont++;
+        console.log(questionarioCont);
+    }
+    else if (questionarioCont < 9){
+        abrirLinkPerfil();
+        questionarioIntPergTexto.setText('Quer fazer o teste novamente?');
+        questionarioCont++;
+    }
+    else {
+        reiniciar();        
+    }
+}
+
+function questionarioEscolhaA (){
+    questionarioResp[questionarioCont] = 0;
+    questionarioCont++;
+    questionarioProxPerg();
+}
+
+function questionarioEscolhaB (){
+    questionarioResp[questionarioCont] = 1;
+    questionarioCont++;
+    questionarioProxPerg();
+}
+
+function questionarioEscolhaC (){
+    questionarioResp[questionarioCont] = 2;
+    questionarioCont++;
+    questionarioProxPerg();
 }
 
 // Função de abrir link para o questionário
@@ -302,9 +567,37 @@ function abrirLink ()
     }
 }
 
-function abrirLinkTeclado ()
+function abrirLinkPerfil ()
 {
-    if (botaoComecar.visible == true){
-        abrirLink();
+
+    var somaResp = questionarioResp[0] + questionarioResp[1] +questionarioResp[2] + questionarioResp[3] + questionarioResp[4] + questionarioResp[5];
+    var url;
+
+    if (somaResp < 3)
+    {
+        url = '../perfil-conservador.html';
+    } else if (somaResp < 7)
+    {
+        url = '../perfil-moderado.html';
+    } else if (somaResp >= 7)
+    {
+        url = '../perfil-moderado.html';
+        //TROCAR ISSO DEPOIS
     }
+
+    var s = window.open(url, '_blank');
+
+    if (s && s.focus)
+    {
+        s.focus();
+    }
+    else if (!s)
+    {
+        window.location.href = url;
+    }
+}
+
+// Reseta o jogo
+function reiniciar (){
+    cenaJogo.scene.restart();
 }
